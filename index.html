@@ -27,12 +27,13 @@
 
 
 
+
 </head>
 <body>
-    <div id="main-page" class="container">
+<div id="main-page">
         <!-----------------------Aside-Page------------------------->
-        <div class="col-sm-4 aside-page">
-            <a href="#"><img src="images/logo.png" alt="FPT Telecom"></a>
+    <div class="col-sm-3 aside-page">
+            <a href="#"><img src="images/logo/logo.png" alt="FPT Telecom"></a>
             <nav id="main-menu">
                 <ul>
                     <li><a href="#">SẢN PHẨM DỊCH VỤ</a></li>
@@ -52,10 +53,11 @@
                     <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
-        </div>
+    </div>
         <!-------------------------Content-Page------------------------>
+    <div class="col-sm-9 content">
 <!-----Menu-Search------>
-        <div class="col-sm-12 menu-search ">
+        <div class="menu-search ">
             <a href="#">FPT TELECOM</a>
             <a href="#">KHÁCH HÀNG CÁ NHÂN</a>
             <a href="#">KHÁCH HÀNG DOANH NGHIỆP</a>
@@ -63,7 +65,56 @@
             <a class="log-in" href=""><i class="fa fa-user-circle" aria-hidden="true"></i>Đăng nhập</a>
         </div>
 <!-- Slideshow container -->
-
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow1.jpg" alt="Slide-Show-1"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow2.jpg" alt="Slide-Show-2"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow3.jpg" alt="Slide-Show-3"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow4.jpg" alt="Slide-Show-4"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow5.jpg" alt="Slide-Show-5"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow6.jpg" alt="Slide-Show-6"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow7.jpg" alt="Slide-Show-7"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow8.jpg" alt="Slide-Show-8"></a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#"><img src="images/slideshow/slideshow9.jpg" alt="Slide-Show-9"></a>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)" title="Previous">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)" title="Next">&#10095;</a>
+        </div>
+        <!-- The dots/circles -->
+        <div class="num-list">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
     </div>
+</div>
+
+
+<!--Javascript.js-->
+<script language="JavaScript" src="js/javascript.js"></script>
+
 </body>
 </html>
