@@ -15,123 +15,144 @@
     clear: both;
     display: table;
 }
-
-
+/*--------------------Main-page-------------------------------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 
 /*-----------------------------Aside-Page---------------------------------*/
 .aside-page {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     background: #2C2C2C;
-    width:270px;
+    width:20%;
     position:fixed;
-    padding-top: 3em;
-    padding-bottom: 40px;
-    padding-left: 3em;
-    padding-right: 3em;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     transition: 0.5s;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
-.aside-page  a {
+/*----------Header-page--------*/
+.hearder-page {
+    position:relative;
+    margin:30px auto;
+}
+.hearder-page > a {
     color:white;
     text-decoration:none;
-}
-.aside-page a img {
-    width:150px;
-    height:50px;
-}
-#main-menu {
-    padding-top:50px;
-    padding-bottom:100px;
-}
-#main-menu ul {
-    list-style-type: none;
-}
-#main-menu ul li {
-    text-align:center;
-    margin-left:-53px;
-    padding-top:0;
-    padding-bottom:15px;
-}
-#main-menu li a {
-    font-family: Roboto-bold;
-    color:gainsboro;
-    font-size:16px;
-}
-#main-menu ul li:hover a {
-    color:orange;
-}
-#main-page .footer-page {
-    position:relative;
-}
-#main-page .footer-page p {
-    position:absolute;
-    top:-30px;
+    position: absolute;
     left:50%;
     transform: translate(-50%,0);
 }
-#main-page .footer-page p small  {
+.hearder-page > a > img {
+    width:150px;
+    height:50px;
+}
+/*------Main-menu----------*/
+.main-menu {
+    margin-top:100px;
+}
+.main-menu ul {
+    list-style-type: none;
+    padding:0;
+}
+.main-menu ul li {
+    margin-top:20px;
+    text-align:center;
+}
+.main-menu li a {
+    font-family: Roboto-bold;
+    text-decoration: none;
+    color:gainsboro;
+    font-size:16px;
+}
+.main-menu ul li:hover a {
+    color:orange;
+}
+/*--------------Footer-Page-----------------*/
+.footer-page {
+    position: relative;
+    margin:0 auto;
+    bottom:-50px;
+}
+.footer-page p {
+}
+.footer-page p small  {
     color: gainsboro;
     text-align: center;
     text-indent: 4px;
     display:block;
-    width:200px;
 }
-#main-page .footer-page p small a {
+.footer-page p small a {
     color:orange;
     text-decoration:none;
 }
-#main-page .footer-page ul {
+.footer-page ul {
     list-style-type: none;
-    position: absolute;
-    left:-20px;
-    padding-top:20px;
+    text-align: center;
+    padding-top:10px;
+    padding-left:0;
+
 }
-#main-page .footer-page ul li {
+.footer-page ul li {
     display:inline;
     padding:0;
 }
-#main-page .footer-page ul li a {
+.footer-page ul li a {
     color:gainsboro;
 }
-#main-page .footer-page ul li:hover a{
+.footer-page ul li:hover a{
     color:orange;
 }
-#main-page .footer-page ul li a i {
+.footer-page ul li a i {
     display:inline-block;
     width:30px;
     height:30px;
     font-size:25px;
 }
+/*-----------------Submenu-Internet-FPT---------------------*/
+.product-service {
+    position:relative;
+}
+.submenu-internet {
+    position:absolute;
+    top:0;
+    left:300px;
+    background: green;
+    display:none;
+}
+li.product-service:hover > ul.submenu-internet{
+    display:block;
+}
+
 /*-------------------Content-Page--------------------------*/
-.content {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-left:270px;
-    width:1079px;
-    padding-left:10px;
-    padding-right:0;
-    padding-top:0;
-    padding-bottom:0;
+.content-page {
+    width:80%;
+    padding:0;
+    float:right;
+    /*display:none;*/
 }
 /*=====Menu Search=====*/
 .menu-search {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     position:fixed;
     height:50px;
+    width:100%;
     background: #ffffff;
-    margin-top:0;
-    margin-left:10px;
+    z-index: 2;
+    padding-left:25px;
 }
-.menu-search > a {
+.menu-search ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+.menu-search ul li {
+    display:inline;
+}
+.menu-search ul li  a {
     text-decoration:none;
     display:inline-block;
     font-family: Roboto-bold;
@@ -139,50 +160,50 @@
     color:#2b2b2b;
     padding:5px 15px;
 }
-.menu-search > a:first-child {
+
+.menu-search ul li:first-of-type a {
     color:orange;
 }
-.menu-search > a:hover {
+.menu-search ul li a:hover {
     color:orange;
 }
-.menu-search > a.search {
+.menu-search ul li a.search {
     position:relative;
 }
-.menu-search > a.search > input {
+.menu-search ul li a.search > input {
     width:300px;
     border-radius: 20px;
     border:1px solid #2b2b2b;
     padding-left:15px;
 }
-.menu-search > a.search > i {
+.menu-search ul li a.search > i {
     position:absolute;
     right:25px;
     top:50%;
     transform: translate(0,-50%);
     color:orange;
 }
-.menu-search > a.log-in > i {
+.menu-search ul li a.log-in > i {
     padding:5px;
 }
-/*==SlideShow==*/
-.slideshow-container {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
+/*----------SlideShow------------*/
+.slideshow {
+    position: absolute;
+    right:0;
+    top:60px;
+    width:80%;
+    z-index: 1;
 }
 /* Hide the images by default */
-.slideshow-container .mySlides {
+.slideshow .mySlides {
     display: none;
 }
-.slideshow-container img {
-    width:107%;
-    position:absolute;
-    top:60px;
-    left:-10px;
+.slideshow img {
+    width:100%;
+    height:100%;
 }
 /* Next & previous buttons */
-.slideshow-container .prev,.next {
+.slideshow .prev,.next {
     cursor: pointer;
     position: absolute;
     color:grey;
@@ -198,25 +219,28 @@
     border-radius: 50%;
     user-select: none;
 }
-.slideshow-container .prev {
-    top:200px;
-    left:10px;
+.slideshow .prev {
+    top:50%;
+    transform: translate(0,-50%);
+    left:15px;
 }
-.slideshow-container .next {
-    top:200px;
-    right:-45px;
+.slideshow .next {
+    top:50%;
+    transform: translate(0,-50%);
+    right:15px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     color: grey;
     opacity: 1;
 }
+/*---------Num-List----------*/
 /* The dots/bullets/indicators */
-.content .num-list {
-    height:25px;
-    width:175px;
-    position:relative;
-    top:371px;
+.num-list {
+    height: 25px;
+    width: 175px;
+    position: relative;
+    top:-25px;
     left:50%;
     transform: translate(-50%,0);
 }
