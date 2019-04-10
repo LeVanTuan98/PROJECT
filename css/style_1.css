@@ -1,0 +1,345 @@
+
+/*--------------------Main-page-------------------------------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*-----------------------------Aside-Page---------------------------------*/
+.aside-page {
+    background: #2C2C2C;
+    width:20%;
+    position:fixed;
+    /*overflow-y: auto;*/
+    /*overflow-x:visible;*/
+    transition: 0.5s;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/*----------Header-aside-page--------*/
+.hearder-page {
+    position:relative;
+    margin:30px auto;
+}
+.hearder-page > a {
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.hearder-page > a > img {
+    width:150px;
+    height:50px;
+}
+/*------Main-menu----------*/
+.main-menu {
+    margin-top:100px;
+}
+.main-menu > ul {
+    list-style-type: none;
+    padding:0;
+}
+.main-menu > ul > li {
+    margin-top:20px;
+    text-align:center;
+    padding-left:55px;
+    padding-right:55px;
+}
+.main-menu > ul > li > a {
+    font-family: Roboto-bold;
+    text-decoration: none;
+    color:gainsboro;
+    font-size:16px;
+}
+.main-menu > ul > li:hover > a {
+    color:orange;
+}
+/*------------------Submenu------------------------------*/
+/*Flex-container => Chung cho các submenu*/
+.submenu-product-services {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 270px;
+    background: #d0d0d0;
+    padding: 30px 50px;
+}
+.submenu-product-services > ul {
+    padding:0;
+    margin:0;
+    margin-left:80px;
+}
+.submenu-product-services > ul:first-of-type {
+    margin-left:30px;
+}
+.submenu-product-services > ul > .icon > a > img {
+    position:absolute;
+    top:30px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.submenu-product-services > ul > .icon > a > p {
+    margin-top: 50px;
+}
+.submenu-product-services > ul > .icon > a > img.hover {
+    display:none;
+}
+.submenu-product-services > ul > .icon:hover > a > img.non-hover {
+    display:none;
+}
+.submenu-product-services > ul > .icon:hover > a > img.hover {
+    display:inline;
+}
+.submenu-product-services > ul > li:hover > a {
+    color:orange;
+}
+.submenu-product-services > ul > .icon:hover > a > p {
+    color: #7c7f80;
+}
+/*Menu Product-services - Sản phẩm dịch vụ*/
+.product-services {
+    position:relative;
+}
+.product-services ul {
+    list-style-type: none;
+}
+.product-services ul li {
+    width:150px;
+    text-align:center;
+}
+.product-services ul li a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size:16px;
+    color: #444444;
+}
+.product-services ul li:first-of-type a {
+    color:orange;
+    font-size:18px;
+    font-family: Roboto-bold;
+}
+
+.submenu-product-services {
+    display: none;
+}
+li.product-services:hover > .submenu-product-services {
+    display: flex;
+}
+/*-----------------Submenu-Internet-FPT---------------------*/
+
+
+/*--------------Footer-Page-----------------*/
+.footer-page {
+    position: relative;
+    margin:0 auto;
+    bottom:-50px;
+}
+.footer-page > p {
+}
+.footer-page > p > small  {
+    color: gainsboro;
+    text-align: center;
+    text-indent: 4px;
+    display:block;
+}
+.footer-page > p > small > a {
+    color:orange;
+    text-decoration:none;
+}
+.footer-page > ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top:10px;
+    padding-left:0;
+
+}
+.footer-page > ul > li {
+    display:inline;
+    padding:0;
+}
+.footer-page > ul > li > a {
+    color:gainsboro;
+}
+.footer-page > ul > li:hover > a{
+    color:orange;
+}
+.footer-page > ul > li > a > i {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    font-size:25px;
+}
+
+
+/*-------------------Content-Page--------------------------*/
+.content-page {
+    width:80%;
+    padding:0;
+    float:right;
+}
+/*=====Menu Search=====*/
+.menu-search {
+    position:fixed;
+    height:50px;
+    width:80%;
+    background: #ffffff;
+    z-index: 2;
+    padding:10px 25px;
+    margin:0 auto;
+}
+.menu-search > div {
+    display:inline-block;
+    margin-left:20px;
+}
+.menu-search > div  > a {
+    text-decoration:none;
+    font-family: Roboto-bold;
+    font-size:15px;
+    color:#2b2b2b;
+}
+.menu-search > div:first-of-type > a {
+    color:orange;
+}
+.menu-search > div:hover > a {
+    color:orange;
+}
+
+.menu-search > .search > form{
+    display:inline-block;
+    width:320px;
+    height: 24.47px;
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.menu-search > .search > form > input {
+    position: absolute;
+    border-radius: 20px;
+    border:1px solid #2b2b2b;
+    padding-left:15px;
+    width:320px;
+    padding-top:0;
+    padding-bottom:0;
+}
+.menu-search > .search > form > button {
+    position:absolute;
+    right: 2px;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.menu-search > .log-in  {
+    position: absolute;
+    right:50px;
+}
+.menu-search > .log-in > a > i {
+    padding:5px;
+}
+
+/*----------SlideShow------------*/
+.slideshow {
+    position: absolute;
+    right:0;
+    top:60px;
+    width:80%;
+    z-index:-1; /* Thêm vào để hiển thị được sub-menu */
+}
+/* Hide the images by default */
+.slideshow .mySlides {
+    display: none;
+}
+.slideshow img {
+    width:100%;
+    height:100%;
+}
+/* Next & previous buttons */
+.slideshow .prev,.next {
+    cursor: pointer;
+    position: absolute;
+    color:grey;
+    opacity: 0.1;
+    font-size: 30px;
+    line-height: 45px;
+    text-align:center;
+    transition: 0.6s ease;
+    display:block;
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    user-select: none;
+}
+.slideshow .prev {
+    top:50%;
+    transform: translate(0,-50%);
+    left:15px;
+}
+.slideshow .next {
+    top:50%;
+    transform: translate(0,-50%);
+    right:15px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color: grey;
+    opacity: 1;
+}
+/*---------Num-List----------*/
+/* The dots/bullets/indicators */
+.num-list {
+    height: 25px;
+    width: 175px;
+    position: relative;
+    top:-25px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.num-list .dot {
+    display: inline-block;
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin-top:5px;
+    margin-left:5px;
+    padding:5px;
+    background-color: #d0d0d0;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+.active , .dot:hover {
+    background-color: orange !important;
+}
+    /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-name: fade;
+    -moz-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;/*Sau khi chạy hết animation thì sẽ trở lại trạng thái sau cùng */
+}
+@-moz-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}

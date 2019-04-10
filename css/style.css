@@ -1,12 +1,19 @@
-/*---------------------Add Fonts----------------------------------------*/
+/*---------------------Add Fonts---------------------*/
 @font-face {
     font-family: Roboto-bold;
     src: url("../fonts/Roboto/Roboto-Bold.ttf");
     font-weight:bold;
 }
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto-medium;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
 
-
-/*------------------Clear Fix-------------------------------------------*/
+/*------------------Clear Fix-------------------------*/
 .clearfix {
     overflow: auto;
 }
@@ -15,313 +22,211 @@
     clear: both;
     display: table;
 }
-/*--------------------Main-page-------------------------------------------*/
+/*--------------Model-Box--------------------------*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-
-/*-----------------------------Aside-Page---------------------------------*/
-.aside-page {
-    background: #2C2C2C;
-    width:20%;
-    position:fixed;
-    /*overflow-y: auto;*/
-    /*overflow-x:visible;*/
-    transition: 0.5s;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-}
-/*----------Header-page--------*/
+/*=====================Main-Page==================*/
+/*-------------Header-page-----------------------*/
 .hearder-page {
-    position:relative;
-    margin:30px auto;
+    width:100%;
 }
-.hearder-page > a {
-    color:white;
-    text-decoration:none;
-    position: absolute;
-    left:50%;
-    transform: translate(-50%,0);
+/*-------------Header-top---------------------*/
+.hearder-top {
+    height:40px;
+    background: #2b2b2b;
 }
-.hearder-page > a > img {
-    width:150px;
-    height:50px;
+/*_____Menu-1_____*/
+.hearder-top .menu-1 {
+    line-height:40px;
 }
-/*------Main-menu----------*/
-.main-menu {
-    margin-top:100px;
-}
-.main-menu > ul {
+.menu-1 ul {
     list-style-type: none;
-    padding:0;
-}
-.main-menu > ul > li {
-    margin-top:20px;
-    text-align:center;
-    padding-left:50px;
-    padding-right:50px;
-}
-.main-menu > ul > li > a {
-    font-family: Roboto-bold;
-    text-decoration: none;
-    color:gainsboro;
-    font-size:16px;
-}
-.main-menu > ul > li:hover > a {
-    color:orange;
-}
-/*------------------Submenu------------------------------*/
-/*Flex-container => Chung cho các submenu*/
-.submenu-product-services {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 0;
-    left: 266px;
-    background: #d0d0d0;
-    padding: 30px 50px;
-}
-.submenu-product-services ul {
     padding:0;
     margin:0;
-    margin-left:80px;
 }
-.submenu-product-services ul:first-of-type {
-    margin-left:50px;
+.menu-1 ul li {
+    display:inline-block;
+    padding-right:0.7em;
 }
-/*Menu Product-services - Sản phẩm dịch vụ*/
-.product-services {
-    position:relative;
-}
-.product-services ul {
-    list-style-type: none;
-}
-.product-services ul li {
-
-}
-.product-services ul li a {
+.menu-1 ul li a {
     text-decoration: none;
-}
-.submenu-product-services {
-    display: none;
-}
-li.product-services:hover > .submenu-product-services {
-    display: flex;
-}
-/*-----------------Submenu-Internet-FPT---------------------*/
-
-
-/*--------------Footer-Page-----------------*/
-.footer-page {
-    position: relative;
-    margin:0 auto;
-    bottom:-50px;
-}
-.footer-page > p {
-}
-.footer-page > p > small  {
-    color: gainsboro;
-    text-align: center;
-    text-indent: 4px;
-    display:block;
-}
-.footer-page > p > small > a {
-    color:orange;
-    text-decoration:none;
-}
-.footer-page > ul {
-    list-style-type: none;
-    text-align: center;
-    padding-top:10px;
-    padding-left:0;
-
-}
-.footer-page > ul > li {
-    display:inline;
-    padding:0;
-}
-.footer-page > ul > li > a {
-    color:gainsboro;
-}
-.footer-page > ul > li:hover > a{
-    color:orange;
-}
-.footer-page > ul > li > a > i {
-    display:inline-block;
-    width:30px;
-    height:30px;
-    font-size:25px;
-}
-
-
-/*-------------------Content-Page--------------------------*/
-.content-page {
-    width:80%;
-    padding:0;
-    float:right;
-}
-/*=====Menu Search=====*/
-.menu-search {
-    position:fixed;
-    height:50px;
-    width:80%;
-    background: #ffffff;
-    z-index: 2;
-    padding:10px 25px;
-    margin:0 auto;
-}
-.menu-search > div {
-    display:inline-block;
-    margin-left:20px;
-}
-.menu-search > div  > a {
-    text-decoration:none;
     font-family: Roboto-bold;
-    font-size:15px;
-    color:#2b2b2b;
+    font-size:11px;
+    color: #ffffff;
+    text-align: center;
 }
-.menu-search > div:first-of-type > a {
-    color:orange;
+.menu-1 ul li:first-of-type a {
+    color:#fd6136;
 }
-.menu-search > div:hover > a {
-    color:orange;
+.menu-1 ul li:hover a {
+    color:#fd6136;
 }
-
-.menu-search > .search > form{
-    display:inline-block;
-    width:320px;
-    height: 24.47px;
-    position:absolute;
-    top:50%;
-    transform: translate(0,-50%);
+/*_____Search_____*/
+.hearder-top #search {
+    line-height:40px;
 }
-.menu-search > .search > form > input {
-    position: absolute;
-    border-radius: 20px;
+#search form[name="search"] {
+}
+#search form[name="search"] input[type="text"] {
+    border-radius: 1.25em;
     border:1px solid #2b2b2b;
-    padding-left:15px;
-    width:320px;
-    padding-top:0;
-    padding-bottom:0;
+    padding-left:0.9em;
 }
-.menu-search > .search > form > button {
-    position:absolute;
-    right: 2px;
+#search form[name="search"] button[type="submit"] {
+    position:relative;
     border:none;
     background: none;
     cursor: pointer;
+    right:2.25em;
+    top:-0.05em;
 }
-.menu-search > .log-in  {
-    position: absolute;
-    right:50px;
+/*_____Log-in_____*/
+.hearder-top .menu-2 {
+    text-align: center;
+    line-height:40px;
 }
-.menu-search > .log-in > a > i {
-    padding:5px;
+.menu-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.menu-2 ul li {
+    display: inline-block;
+    padding-right:0.9em;
+}
+.menu-2 ul li a {
+    text-decoration: none;
+    font-family: Roboto-bold;
+    font-size:11px;
+    color: #ffffff;
+}
+.menu-2 ul li a i {
+    padding-right: 0.3em;
+}
+.menu-2 ul li a:hover i {
+    color:#fd6136;
+}
+.menu-2 ul li a:hover span {
+    color:#fd6136;
 }
 
-/*----------SlideShow------------*/
-.slideshow {
-    position: absolute;
-    right:0;
-    top:60px;
-    width:80%;
-    z-index:-1; /* Thêm vào để hiển thị được sub-menu */
+/*-------------------Header-menu-------------------*/
+.header-menu {
+    height:65px;
+    border-bottom:1px solid #7c7f80;
 }
-/* Hide the images by default */
-.slideshow .mySlides {
+.header-menu #main-menu {
+    width:100%;
+    height:65px;
+}
+/*______Logo_______*/
+#main-menu .logo {
+    line-height: 65px;
+}
+.logo a {
+
+}
+.logo a img {
+    height:50px;
+
+}
+/*__________Menu-Item_________*/
+.menu-item {
+    line-height:65px;
+    left:0;
+}
+.menu-item ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.menu-item ul li {
+    display:inline-block;
+    margin-left: 2em;
+    text-align: center;
+}
+.menu-item ul li div a {
+    font-family: Roboto-bold;
+    text-decoration: none;
+    color:#000;
+    font-size:16px;
+}
+.menu-item ul li:hover a {
+    color:#fd6136;
+}
+
+/*
+* Submenu for Sản phẩm dịch vụ
+*/
+
+.menu-item-1 {
+    position:relative;
+}
+.menu-item-1:hover .dropmenu {
+    display:block;
+}
+.dropmenu {
+    width:700px;
+    height:auto;
+    position:absolute;
+    background: yellow;
+    left:0;
+    padding:0;
+    margin:0;
     display: none;
 }
-.slideshow img {
-    width:100%;
-    height:100%;
+
+.dropmenu .submenu {
+    float:left;
+    padding:1em;
+    margin:1em;
 }
-/* Next & previous buttons */
-.slideshow .prev,.next {
-    cursor: pointer;
-    position: absolute;
-    color:grey;
-    opacity: 0.1;
-    font-size: 30px;
-    line-height: 45px;
-    text-align:center;
-    transition: 0.6s ease;
+.dropmenu ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.dropmenu ul li {
     display:block;
-    width:50px;
-    height:50px;
-    border: 1px solid black;
-    border-radius: 50%;
-    user-select: none;
+    padding: 0;
+    margin:0;
 }
-.slideshow .prev {
-    top:50%;
-    transform: translate(0,-50%);
-    left:15px;
+.menu-icon ul > li {
+    margin-top:-2em;
 }
-.slideshow .next {
-    top:50%;
-    transform: translate(0,-50%);
-    right:15px;
+.menu-icon a {
+    text-decoration: none;
 }
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    color: grey;
-    opacity: 1;
+.menu-icon a span {
+    font-family: Roboto-medium;
+    color:#000;
+    font-size:13px;
+    text-align:center;
 }
-/*---------Num-List----------*/
-/* The dots/bullets/indicators */
-.num-list {
-    height: 25px;
-    width: 175px;
-    position: relative;
-    top:-25px;
-    left:50%;
-    transform: translate(-50%,0);
-}
+.menu-icon a img {
+    display:block;
+    margin:0 auto;
 
-.num-list .dot {
-    display: inline-block;
-    cursor: pointer;
-    height: 5px;
-    width: 5px;
-    margin-top:5px;
-    margin-left:5px;
-    padding:5px;
-    background-color: #d0d0d0;
-    border-radius: 50%;
-    transition: background-color 0.6s ease;
 }
-.active , .dot:hover {
-    background-color: orange !important;
+.menu-icon a img.hover {
+    display:none;
 }
-    /* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-name: fade;
-    -moz-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;/*Sau khi chạy hết animation thì sẽ trở lại trạng thái sau cùng */
+.menu-icon:hover a img.non-hover {
+    display:none;
 }
-@-moz-keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
+.menu-icon:hover a img.hover {
+    display:block;
 }
-@-webkit-keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
+.menu-icon > a > span {
+    color:#fd6136;
+    font-size: 15px;
 }
-
-@keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
+.menu-icon > a:hover > span {
+    color:#cccccc;
 }
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+.menu-icon ul li:hover a span {
+    color: #ff9056;
 }
