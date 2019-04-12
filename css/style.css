@@ -32,6 +32,8 @@
 /*-------------Header-page-----------------------*/
 .hearder-page {
     width:100%;
+    position:fixed;
+    z-index: 2;
 }
 /*-------------Header-top---------------------*/
 .hearder-top {
@@ -116,6 +118,7 @@
 /*-------------------Header-menu-------------------*/
 .header-menu {
     height:65px;
+    background: white;
     border-bottom:1px solid #7c7f80;
 }
 .header-menu #main-menu {
@@ -166,21 +169,52 @@
     position:relative;
 }
 .menu-item-1:hover .dropmenu {
-    display:block;
+    display:flex;
+    flex-direction: row;
 }
-.dropmenu {
-    width:700px;
-    height:auto;
+.sub-menu-1 {
     position:absolute;
-    background: yellow;
-    left:0;
+    left:-9em;
+}
+
+/*
+* Submenu for Hỗ trợ
+*/
+.menu-item-3 {
+    position:relative;
+}
+.menu-item-3:hover .dropmenu {
+    display:flex;
+    flex-direction: row;
+}
+.sub-menu-3 {
+    position:absolute;
+    left:-28.5em;
+}
+/*
+* Submenu for Member FPT
+*/
+.menu-item-4 {
+    position:relative;
+}
+.menu-item-4:hover .dropmenu {
+    display:flex;
+    flex-direction: row;
+}
+.sub-menu-4 {
+    position:absolute;
+    left:-34.5em;
+}
+
+/*Common for Submenu*/
+.dropmenu {
+    background: #f5f5ee;
     padding:0;
     margin:0;
     display: none;
 }
-
 .dropmenu .submenu {
-    float:left;
+    width:13em;
     padding:1em;
     margin:1em;
 }
@@ -209,7 +243,6 @@
 .menu-icon a img {
     display:block;
     margin:0 auto;
-
 }
 .menu-icon a img.hover {
     display:none;
@@ -229,4 +262,163 @@
 }
 .menu-icon ul li:hover a span {
     color: #ff9056;
+}
+
+
+/*-----------------------------Main-page---------------------*/
+.main-page {
+    position:absolute;
+    top:6.5em;
+    z-index:0;
+}
+/*
+*           Silde show
+*/
+.slideshow {
+    width:100%;
+    z-index:-1; /* Thêm vào để hiển thị được sub-menu */
+}
+/* Hide the images by default */
+.slideshow .mySlides {
+    display: none;
+}
+.slideshow img {
+    width:100%;
+    height:100%;
+}
+/* Next & previous buttons */
+.slideshow .prev,.next {
+    cursor: pointer;
+    position: absolute;
+    color:grey;
+    opacity: 0.1;
+    font-size: 30px;
+    line-height: 45px;
+    text-align:center;
+    transition: 0.6s ease;
+    display:block;
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    user-select: none;
+}
+.slideshow .prev {
+    top:50%;
+    transform: translate(0,-50%);
+    left:15px;
+}
+.slideshow .next {
+    top:50%;
+    transform: translate(0,-50%);
+    right:15px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color: grey;
+    opacity: 1;
+}
+/*____________Num-List_________*/
+/* The dots/bullets/indicators */
+.num-list {
+    height: 25px;
+    width: 175px;
+    position: relative;
+    top:-25px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.num-list .dot {
+    display: inline-block;
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin-top:5px;
+    margin-left:5px;
+    padding:5px;
+    background-color: #d0d0d0;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+.active , .dot:hover {
+    background-color: orange !important;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-name: fade;
+    -moz-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;/*Sau khi chạy hết animation thì sẽ trở lại trạng thái sau cùng */
+}
+@-moz-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+/*
+* ===============Content=================
+*/
+.content {
+    position: absolute;
+    top:26em;
+    width:100%;
+}
+/*
+* Title
+*/
+.content .title {
+    text-align: center;
+    padding:0.5em 0;
+}
+.title a {
+    text-decoration: none;
+}
+.title a span {
+    font-family: Roboto;
+    font-size: 16px;
+    color:#000;
+}
+.title i {
+    padding-right: 0.5em;
+}
+.title i + a span {
+    color:#fe5933;
+}
+/*
+* Intro
+*/
+.content .main-intro {
+    background: #ebebeb;
+}
+.main-intro .intro {
+    display:flex;
+    flex-direction: row;
+}
+.intro .intro-item {
+    width:20%;
+}
+.intro .intro-item a {
+    text-decoration: none;
+}
+.intro .intro-item a img {
+    text-align: center;
+}
+.intro .intro-item a p {
+    text-align: center;
 }
