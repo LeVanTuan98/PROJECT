@@ -794,14 +794,13 @@
 }
 .footer-menu ul li {
     text-align: center;
-    display: inline-block;
+    display: block;
 }
 .footer-menu ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
     font-family: Roboto;
-    margin: 0 25px;
 }
 /*
 * Footer-Logo
