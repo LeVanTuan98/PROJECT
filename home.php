@@ -30,6 +30,11 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+<!--PHP-->
+<?php
+    include "PHP/config.php";
+?>
+<!--HTML-->
 <div id="index" >
     <header class="header-page">
         <div class="head-style">
@@ -583,33 +588,20 @@
     </header>
     <div class="main-page">
         <div class="slideshow">
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow1.jpg" alt="Slide-Show-1"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow2.jpg" alt="Slide-Show-2"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow3.jpg" alt="Slide-Show-3"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow4.jpg" alt="Slide-Show-4"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow5.jpg" alt="Slide-Show-5"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow6.jpg" alt="Slide-Show-6"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow7.jpg" alt="Slide-Show-7"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow8.jpg" alt="Slide-Show-8"></a>
-            </div>
-            <div class="mySlides fade">
-                <a href="#"><img src="images/slideshow/slideshow9.jpg" alt="Slide-Show-9"></a>
-            </div>
+            <?php
+            $sqlQuery = "SELECT * FROM slide_show";
+            $result = mysqli_query($connection,$sqlQuery);
+            if(mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result))
+                {
+                    ?>
+                    <div class="mySlides fade">
+                        <a href="#"><img src="<?php echo $row['src']?>" alt="<?php echo $row['alt']?>"></a>
+                    </div>
+                    <?php
+                }
+            }
+            ?>
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)" title="Previous">&#10094;</a>
             <a class="next" onclick="plusSlides(1)" title="Next">&#10095;</a>
@@ -701,29 +693,36 @@
                                     Thành lập ngày 31/01/1997, khởi nguồn từ Trung tâm Dịch vụ Trực tuyến do 4 thành viên sáng lập cùng sản phẩm mạng Intranet đầu tiên của Việt Nam mang tên “Trí tuệ Việt Nam – TTVN”, sản phẩm được coi là đặt nền móng cho sự phát triển của Internet tại Việt Nam.
                                 </p>
                                 <div class="number-list">
+                                    <?php
+                                    $sqlQuery = "SELECT * FROM company_size";
+                                    $result = mysqli_query($connection,$sqlQuery);
+                                    if(mysqli_num_rows($result) > 0) {
+                                        $row = mysqli_fetch_assoc($result);
+                                    }
+                                    ?>
                                     <div class="number">
                                         <p>
-                                            Sau <br> <span>21</span> <br> NĂM HOẠT ĐỘNG
+                                            Sau <br> <span><?php echo $row['time']?></span> <br> NĂM HOẠT ĐỘNG
                                         </p>
                                     </div>
                                     <div class="number">
                                         <p>
-                                            Có hơn <br> <span>7.000</span> <br> NHÂN VIÊN CHÍNH THỨC
+                                            Có hơn <br> <span><?php echo $row['employees']?></span> <br> NHÂN VIÊN CHÍNH THỨC
                                         </p>
                                     </div>
                                     <div class="number">
                                         <p>
-                                            Với gần <br> <span>200</span> <br> VĂN PHÒNG GIAO DỊCH
+                                            Với gần <br> <span><?php echo $row['offices']?></span> <br> VĂN PHÒNG GIAO DỊCH
                                         </p>
                                     </div>
                                     <div class="number">
                                         <p>
-                                            Tại <br> <span>59</span> <br> TỈNH THÀNH
+                                            Tại <br> <span><?php echo $row['province']?></span> <br> TỈNH THÀNH
                                         </p>
                                     </div>
                                     <div class="number">
                                         <p>
-                                            Thuộc hơn <br> <span>80</span> <br> CHI NHÁNH
+                                            Thuộc hơn <br> <span><?php echo $row['branch']?></span> <br> CHI NHÁNH
                                         </p>
                                     </div>
                                 </div>
@@ -768,15 +767,15 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <ul class="list-style-orange">
-                                <li>Cung cấp hạ tầng mạng viễn thông cho dịch vụ Internet băng rộng</li>
-                                <li>Cung cấp các sản phẩm, dịch vụ viễn thông, Internet</li>
-                                <li>Dịch vụ giá trị gia tăng trên mạng Internet, điện thoại di động</li>
-                                <li>Dịch vụ Truyền hình</li>
-                                <li>Dịch vụ tin nhắn, dữ liệu, thông tin giải trí trên mạng điện thoại di động</li>
-                                <li>Thiết lập hạ tầng mạng và cung cấp các dịch vụ viễn thông, Internet</li>
+                                <li>Cung cấp hạ tầng mạng viễn thông cho dịch vụ Internet băng rộng.</li>
+                                <li>Cung cấp các sản phẩm, dịch vụ viễn thông, Internet.</li>
+                                <li>Dịch vụ giá trị gia tăng trên mạng Internet, điện thoại di động.</li>
+                                <li>Dịch vụ Truyền hình.</li>
+                                <li>Dịch vụ tin nhắn, dữ liệu, thông tin giải trí trên mạng điện thoại di động.</li>
+                                <li>Thiết lập hạ tầng mạng và cung cấp các dịch vụ viễn thông, Internet.</li>
                                 <li>Xuất nhập khẩu thiết bị viễn thông và Internet.</li>
                                 <li>Dịch vụ viễn thông cố định nội hạt.</li>
-                                <li>Dịch vụ viễn thông giá trị gia tăng</li>
+                                <li>Dịch vụ viễn thông giá trị gia tăng.</li>
                                 <li>Dịch vụ viễn thông cố định đường dài trong nước, quốc tế.</li>
                             </ul>
                         </div>
@@ -824,15 +823,18 @@
                         </span>
                     </div>
                     <div class="img">
-                        <img src="images/intro/chungchi/gioithieu_03.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_05.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_07.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_09.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_11.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_13.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_15.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_17.png" alt="Giới thiệu">
-                        <img src="images/intro/chungchi/gioithieu_19.jpg" alt="Giới thiệu">
+                        <?php
+                        $sqlQuery = "SELECT * FROM international_certificate";
+                        $result = mysqli_query($connection,$sqlQuery);
+                        if(mysqli_num_rows($result) > 0) {
+                            while($row = mysqli_fetch_assoc($result))
+                            {
+                                ?>
+                                    <img src="<?php echo $row['src']?>" alt="">
+                                <?php
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -979,30 +981,20 @@
                 <div class="col-12 col-sm-12 col-md-12">
                     <h4>Link sản phẩm dịch vụ</h4>
                     <div class="slider-logo-footer">
-                        <div>
-                            <img src="images/footer/logo-fpt-internet.png" alt="logo-fpt-internet.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-fpt-play.png" alt="logo-fpt-play.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-fpt-play-box.png" alt="logo-fpt-play-box.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-fpt-truyenhinh.png" alt="logo-fpt-truyenhinh.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-fshare.png" alt="logo-fshare.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-fsend.png" alt="logo-fsend.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-mix166.png" alt="logo-mix166.png">
-                        </div>
-                        <div>
-                            <img src="images/footer/logo-startalk.png" alt="logo-startalk.png">
-                        </div>
+                        <?php
+                        $sqlQuery = "SELECT * FROM product";
+                        $result = mysqli_query($connection,$sqlQuery);
+                        if(mysqli_num_rows($result) > 0) {
+                            while($row = mysqli_fetch_assoc($result))
+                            {
+                                ?>
+                                <div>
+                                    <img src="<?php echo $row['src']?>" alt="<?php echo $row['alt']?>">
+                                </div>
+                                <?php
+                            }
+                        }
+                        ?>
                     </div>
                     <div class="license row">
                         <div class="col-sm-6">

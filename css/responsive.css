@@ -162,14 +162,15 @@
     .sub-menu-4{
         left:-315px;
     }
-    .content {
-        top:15em;
+    .content-intro .number-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    #index .footer-page {
-        top:5850px;
+    .number-list .number {
+        width:120px;
+        padding:1em 0.5em 0;
     }
-
-
 }
 @media screen and (max-width:600px){
     .head-style {
@@ -177,9 +178,6 @@
     }
     .head-style-responsive {
         display: block;
-    }
-    .content {
-        top:12em;
     }
     .content-intro .number-list {
         display:block;
@@ -194,9 +192,4 @@
         max-width: 100%;
         height:auto;
     }
-    #index .footer-page {
-        top:8045px;
-    }
-
-
 }
