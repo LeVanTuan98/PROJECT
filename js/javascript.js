@@ -1,3 +1,6 @@
+/**
+ * Slide Show
+ */
 var slideIndex = 1;
 showSlides(slideIndex);
 // autoshowSlides();
@@ -31,8 +34,4 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
-// function autoshowSlides() {
-//     showSlides(n);
-//     setTimeout(showSlides, 2000);
-//     n++;
-// }
+

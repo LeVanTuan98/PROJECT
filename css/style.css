@@ -280,111 +280,10 @@
     width:100%;
 }
 /*
-*           Silde show
-*/
-.slideshow {
-    position: relative;
-    width:100%;
-    z-index:0; /* Thêm vào để hiển thị được sub-menu */
-}
-/* Hide the images by default */
-.slideshow .mySlides {
-    display: none;
-}
-.slideshow img {
-    width:100%;
-    /*height:100%;*/
-}
-/* Next & previous buttons */
-.slideshow .prev,.next {
-    cursor: pointer;
-    position: absolute;
-    color:grey;
-    opacity: 0.1;
-    font-size: 30px;
-    line-height: 45px;
-    text-align:center;
-    transition: 0.6s ease;
-    display:block;
-    width:50px;
-    height:50px;
-    border: 1px solid black;
-    border-radius: 50%;
-    user-select: none;
-}
-.slideshow .prev {
-    top:50%;
-    transform: translate(0,-50%);
-    left:15px;
-}
-.slideshow .next {
-    top:50%;
-    transform: translate(0,-50%);
-    right:15px;
-}
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    color: grey;
-    opacity: 1;
-}
-/*____________Num-List_________*/
-/* The dots/bullets/indicators */
-.num-list {
-    height: 25px;
-    width: 175px;
-    position: relative;
-    top:-25px;
-    left:50%;
-    transform: translate(-50%,0);
-}
-
-.num-list .dot {
-    display: inline-block;
-    cursor: pointer;
-    height: 5px;
-    width: 5px;
-    margin-top:5px;
-    margin-left:5px;
-    padding:5px;
-    background-color: #d0d0d0;
-    border-radius: 50%;
-    transition: background-color 0.6s ease;
-}
-.active , .dot:hover {
-    background-color: orange !important;
-}
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-name: fade;
-    -moz-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;/*Sau khi chạy hết animation thì sẽ trở lại trạng thái sau cùng */
-}
-@-moz-keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
-}
-@-webkit-keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
-}
-
-@keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
-}
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-}
-/*
 * ===============Content=================
 */
 .content {
-    margin-top: -1.6em;
+    margin-top: 0;
     width:100%;
 }
 /*
@@ -440,16 +339,16 @@
     font-family: Roboto-bold;
     font-size: 18px;
 }
-.intro .intro-item:first-of-type a img {
-    background:#f47a31 ;
-}
-.intro .intro-item:first-of-type a p {
-    color:#f47a31 ;
-}
 .intro .intro-item:hover a img {
     background:#f47a31 ;
 }
 .intro .intro-item:hover a p {
+    color:#f47a31 ;
+}
+.intro .focus-item a img {
+    background:#f47a31 ;
+}
+.intro .focus-item a p {
     color:#f47a31 ;
 }
 /*
@@ -699,7 +598,7 @@
 }
 
 /*-----------------------------Footer-Page--------------------*/
-#index .footer-page {
+.footer-page {
     margin-top: 8em;
     width:100%;
     background: #2b2b2b;
@@ -824,4 +723,333 @@
     font-size: 12px;
     font-family: Roboto-medium;
     color: #2b2b2b;
+}
+/*
+ ====================Lien-ket-thanh-vien===============
+ */
+/*
+    Box-link-1
+ */
+.box-link-1 {
+    background: white;
+    margin-top:2em;
+    width:100%;
+}
+/*Content-detail*/
+.box-link-1 .content-detail {
+    width:100%;
+}
+.content-detail a {
+    text-decoration: none;
+}
+.content-detail .p1 {
+    font-family: Roboto-bold;
+    font-size: 16px;
+    color:#333;
+}
+.content-detail .p2 {
+    font-family: Roboto-bold;
+    font-size: 22px;
+    color:#f06e28;
+    padding-top:10px;
+}
+.content-detail .p3 {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+}
+.content-detail .p4 {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+.content-detail .p5 {
+    font-family: Roboto-bold;
+    font-size: 16px;
+    color: #333;
+}
+.content-detail .p6 {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+}
+/*Mini-box*/
+.box-link-1 .mini-box {
+    width:100%;
+    margin-top:1em;
+    display: flex;
+    flex-direction: row;
+}
+.mini-box > div {
+    width:20%;
+    margin-right: 1em;
+}
+.mini-box > div > img {
+    display:block;
+    margin:0 auto;
+}
+.mini-box > div > P {
+    padding: 1em;
+    margin-top: -50px;
+    padding-top: 55px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.mini-box > div:nth-child(2n+1) p {
+    background: #f36f20;
+    color:#fff;
+}
+.mini-box > div:nth-child(2n) p {
+    background: #f0f0f0;
+    color: #000;
+}
+/*
+    Box-link-2
+ */
+.box-link-2 {
+    width:100%;
+    margin-top:2em;
+}
+/*Content*/
+.box-link-2 .b2-content {
+
+}
+.b2-content p {
+    font-family: Roboto-bold;
+    font-size: 16px;
+    color:#333;
+}
+.b2-content ul {
+    list-style-type: none;
+}
+.b2-content ul li {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+}
+/*Image*/
+.box-link-2 .b2-img {
+
+}
+.b2-img img {
+    display: block;
+    margin:0 auto;
+}
+/*
+    Box-link-3
+ */
+.box-link-3 {
+    width:100%;
+    margin-top:2em;
+}
+.box-link-3 .title-row {
+    width:100%;
+}
+.box-link-3 .title-row p {
+    font-family: Roboto-bold;
+    font-size: 16px;
+    color: #333;
+}
+.box-link-3 .address-row {
+    width:100%;
+    border-bottom: 2px solid #f0f0f0;
+}
+.address-row p {
+    font-family: Roboto;
+    font-size: 16px;
+    color:#333;
+}
+.address-row p a {
+    text-decoration: none;
+    font-family: Roboto-bold;
+    font-size: 16px;
+    color:#000;
+}
+.address-row p a i {
+    color: #f36f20;
+    padding-right:0.5em;
+    font-size: 20px;
+}
+/*
+    Box-link-4
+*/
+.box-link-4 {
+    width:100%;
+    background: #ebebeb;
+    padding:2em 0;
+}
+.box-link-4 div .p2 {
+    font-family: Roboto-bold;
+    font-size: 22px;
+    color:#f06e28;
+    padding-top:10px;
+}
+.box-link-4 .address-row {
+    border:none;
+}
+/*
+    ===========================Khách-hàng-đối-tác========================
+*/
+/*Box-partner-1*/
+.box-partner-1 {
+    margin-top:2em;
+    width:100%;
+    background: #ffffff;
+}
+.b-title {
+    width:100%;
+}
+.b-title a {
+    text-decoration: none;
+    display:inline-block;
+    border-bottom: 2px solid #ff6634;
+    padding:5px 0;
+}
+.b-title a img {
+    padding-right: 1em;
+    margin-top: -2em;
+}
+.b-title a span {
+    font-family: Roboto-bold;
+    font-size: 25px;
+    color:#ff6634;
+}
+
+/*
+*           Silde show - logo
+*/
+.box-partner-1 .slideshow {
+    width:100%;
+    margin-top:2em;
+}
+.slideshow .mini-logo {
+    height:90px;
+    border:1px solid #cdcdcd;
+    background: #ffffff;
+}
+/* Hide the images by default */
+.slideshow .mySlides {
+    display: none;
+}
+.slideshow img {
+    max-width:100%;
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.slideshow .slide-btn {
+    width:215px;
+    margin:10px auto;
+}
+.slide-btn ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+.slide-btn ul li {
+    display:inline-block;
+}
+/* Next & previous buttons */
+.slide-btn .prev,.next {
+    cursor: pointer;
+    color:#adadad !important;
+    font-size: 30px;
+    line-height: 40px;
+    text-align:center;
+    display:block;
+    width:50px;
+    height:50px;
+    border: 1px solid #adadad;
+    border-radius: 50%;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background: #f06e28;
+    color: #ffffff;
+}
+/*____________Num-List_________*/
+/* The dots/bullets/indicators */
+.dot {
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    color: #adadad;
+    border-radius: 50%;
+    border: 1px solid #adadad;
+    transition: background-color 0.6s ease;
+}
+.active , .dot:hover {
+    background-color: #f06e28 !important;
+    color: #ffffff;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-name: fade;
+    -moz-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;/*Sau khi chạy hết animation thì sẽ trở lại trạng thái sau cùng */
+}
+@-moz-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+/*Box-partner-2*/
+.box-partner-2 {
+    width:100%;
+    background: #ebebeb;
+    padding: 1em 0;
+}
+.box-partner-2 .b-title a img {
+    padding-right: 1em;
+    margin-top: -1em;
+}
+.b2-partner {
+    width:100%;
+}
+.b2-partner .mini-logo {
+    height:90px;
+    border:1px solid #cdcdcd;
+    background: #ffffff;
+}
+.mini-logo img {
+    max-width:100%;
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.b2-partner .b2-partner-img {
+    width:100%;
+}
+.b2-partner-img img {
+    display:block;
+    margin: 0 auto;
 }

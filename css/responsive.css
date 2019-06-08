@@ -171,7 +171,15 @@
         width:120px;
         padding:1em 0.5em 0;
     }
+    .box-link-1 .mini-box {
+        display:block;
+    }
+    .mini-box > div {
+        width:100%;
+    }
 }
+
+
 @media screen and (max-width:600px){
     .head-style {
         display:none;
@@ -191,5 +199,11 @@
         display:block;
         max-width: 100%;
         height:auto;
+    }
+    .box-link-1 .mini-box {
+        display:block;
+    }
+    .mini-box > div {
+        width:100%;
     }
 }
