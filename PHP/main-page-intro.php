@@ -237,14 +237,14 @@
                                 <span>LIÊN HỆ</span>
                             </span>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-lg-6">
                         <div class="info-contact row">
-                            <div class="col-sm-12 col-md-12 info-contact-1">
+                            <div class="col-sm-12 col-lg-6 info-contact-1">
                                 <p>
                                     Tổng đài Chăm sóc khách hàng 24/7: <br> <a href="#">1900 6600</a>
                                 </p>
                             </div>
-                            <div class="col-sm-12 col-md-12 info-contact-2">
+                            <div class="col-sm-12 col-lg-6 info-contact-2">
                                 <div>
                                     <p>Hòm thư khách hàng:</p>
                                     <p class="icon">

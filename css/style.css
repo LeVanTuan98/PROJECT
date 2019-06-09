@@ -392,7 +392,7 @@
     font-size: 16px;
     color:#333;
 }
-.content-intro .number-list {
+.number-list {
     display: flex;
     flex-direction: row;
 }
@@ -523,7 +523,7 @@
     padding-top:2em;
 }
 /*_____Contact-information________*/
-.box-intro-7 .info-contact {
+.info-contact {
     padding:3em 0;
 }
 /*Info-contact-1*/
@@ -555,7 +555,7 @@
     margin-top: -0.5em;
 }
 .icon img {
-    width:15%;
+    width:43px;
     padding-right:1em;
 }
 .icon strong a {
@@ -1053,3 +1053,214 @@
     display:block;
     margin: 0 auto;
 }
+/*
+    =====================Tập-đoàn-fpt=====================
+*/
+/*Box-fpt-1*/
+.box-fpt-1 {
+    width:100%;
+    margin-top: 2em;
+    background: #ffffff;
+}
+.box-fpt-1 .b1-content {
+    padding-top: 1.5em;
+}
+.b1-content p {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+}
+/*Box-fpt-2*/
+.box-fpt-2 {
+    width:100%;
+    margin-top:2em;
+    background: #ebebeb;
+    padding:1em 0;
+}
+.box-fpt-2 .fpt-culture {
+    width:100%;
+}
+.fpt-culture p {
+    font-family: Roboto;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
+.fpt-culture h2 {
+    font: normal 43px/55px 'UTM-Impact';
+    font-weight: bold;
+    color: #111;
+    padding: 15px 0 0 0;
+    margin: 0;
+}
+.box-fpt-2 .culture-description {
+    width:100%;
+    padding-top:80px;
+}
+.culture-description p {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333333;
+}
+/*Box-fpt-3*/
+.box-fpt-3 {
+    width:100%;
+    margin-top:2em;
+    background: #ffffff;
+}
+.b-content {
+    width:100%;
+    padding-top:1em;
+}
+.b-content .b-content-detail {
+    width:100%;
+}
+.b-content-detail p {
+    font-family: Roboto;
+    font-size: 16px;
+    color:#333333;
+}
+.b-content .b-content-img {
+    width:100%;
+}
+.b-content-img img {
+    max-width: 100%;
+    display:block;
+    margin:0 auto;
+}
+/*Box-fpt-4*/
+.box-fpt-4 {
+    width:100%;
+    margin-top:2em;
+    background: #ffffff;
+}
+/*Box-fpt-5*/
+.box-fpt-5 {
+    width:100%;
+    margin-top:2em;
+    background: #ffffff;
+}
+.box-fpt-5 .b5-customer {
+    margin-top:1.5em;
+}
+.b5-customer p {
+    font-family: Roboto;
+    font-size: 16px;
+    color:#333333;
+}
+.b5-customer .tree-customer {
+    width:100%;
+}
+.tree-customer .tree {
+    width:100%;
+}
+/*Sơ đồ cây*/
+.tree ul {
+    padding-top: 20px;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li {
+    float: left; text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+    content: '';
+    position: absolute; top: 0; right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%; height: 20px;
+}
+.tree li::after{
+    right: auto; left: 50%;
+    border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+    border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0; height: 20px;
+}
+
+.tree li a{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    color:#666666;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+    background: #f37021;
+    color: #fff;
+    border: 1px solid #e65700;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after,
+.tree li a:hover+ul li::before,
+.tree li a:hover+ul::before,
+.tree li a:hover+ul ul::before{
+    border-color:  #e65700;
+}
+.tree > ul > li > ul > li > ul > li {
+    width:140px;
+}
+/*Box-fpt-6*/
+.box-fpt-6 {
+    background:#ebebeb ;
+    padding:1em 0;
+    margin-top: 2em;
+}
+
+
+
+

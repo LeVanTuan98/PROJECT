@@ -162,7 +162,7 @@
     .sub-menu-4{
         left:-315px;
     }
-    .content-intro .number-list {
+    .number-list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -178,8 +178,6 @@
         width:100%;
     }
 }
-
-
 @media screen and (max-width:600px){
     .head-style {
         display:none;
@@ -187,7 +185,7 @@
     .head-style-responsive {
         display: block;
     }
-    .content-intro .number-list {
+    .number-list {
         display:block;
     }
     .number-list .number {
