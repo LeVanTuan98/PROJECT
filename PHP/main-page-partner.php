@@ -1,8 +1,48 @@
 <div class="main-page">
     <?php
-    include "PHP/slide-show.php";
+        include "PHP/slide-show.php";
     ?>
     <div class="content">
+        <div class="alway-on">
+            <div class="group-cart clearfix">
+                <div class="cart">
+                    <a href="#">
+                        <img src="images/right-site/cart.png" alt="">
+                    </a>
+                </div>
+                <div class="text-cart">
+                    <div>
+                        <p>Holine đăng ký</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-call clearfix">
+                <div class="call">
+                    <a href="#">
+                        <img src="images/right-site/call.png" alt="">
+                    </a>
+                </div>
+                <div class="text-call">
+                    <div>
+                        <p>Tổng đài CSKH</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-chat clearfix">
+                <div class="chat">
+                    <a href="#">
+                        <img src="images/right-site/chat.png" alt="">
+                    </a>
+                </div>
+                <div class="text-chat">
+                    <div>
+                        <p>Live Chat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="title">
             <div class="container">
                 <div class=" row">
@@ -65,46 +105,39 @@
                     </a>
                 </div>
                 <div class="slideshow">
+                    <?php
+                        $sqlSelect = "SELECT * FROM customer_logo";
+                        $logos = $database->RunQuery($sqlSelect);
+                        $slide1 = array();
+                        $slide2 = array();
+                    ?>
+                    <?php foreach ($logos as $logo) :?>
+                        <?php if (($logo['id'] > 0) && ($logo['id'] < 19)) :?>
+                            <?php $slide1[] = $logo ; ?>
+                        <?php else: ?>
+                            <?php $slide2[] = $logo ;?>
+                        <?php endif;?>
+                    <?php endforeach;?>
                     <div class="mySlides fade">
                         <div class="row">
-                        <?php
-                            $sqlQuery = "SELECT * FROM customer_logo";
-                            $result = mysqli_query($connection,$sqlQuery);
-                            if(mysqli_num_rows($result) > 0) {
-                                while($row = mysqli_fetch_assoc($result)) {
-                                    if (($row['id'] > 0) && ($row['id'] < 19)) {
-                                        ?>
-                                        <div class="col-sm-3 col-lg-2" style="padding:5px;">
-                                            <div class="mini-logo">
-                                                <a href="#"><img src="<?php echo $row['src'] ?>" alt="<?php echo $row['alt'] ?>"></a>
-                                            </div>
-                                        </div>
-                                        <?php
-                                    }
-                                }
-                            }
-                        ?>
+                            <?php foreach ($slide1 as $logo):?>
+                                <div class="col-sm-3 col-lg-2" style="padding:5px;">
+                                    <div class="mini-logo">
+                                        <a href="#"><img src="<?php echo $logo['src'] ?>" alt="<?php echo $logo['alt'] ?>"></a>
+                                    </div>
+                                </div>
+                            <?php endforeach;?>
                         </div>
                     </div>
                     <div class="mySlides fade">
                         <div class="row">
-                            <?php
-                            $sqlQuery = "SELECT * FROM customer_logo";
-                            $result = mysqli_query($connection,$sqlQuery);
-                            if(mysqli_num_rows($result) > 0) {
-                                while($row = mysqli_fetch_assoc($result)) {
-                                    if (($row['id'] > 18)) {
-                                        ?>
-                                        <div class="col-sm-3 col-lg-2" style="padding:5px;">
-                                            <div class="mini-logo">
-                                                <a href="#"><img src="<?php echo $row['src'] ?>" alt="<?php echo $row['alt'] ?>"></a>
-                                            </div>
-                                        </div>
-                                        <?php
-                                    }
-                                }
-                            }
-                            ?>
+                            <?php foreach ($slide2 as $logo):?>
+                                <div class="col-sm-3 col-lg-2" style="padding:5px;">
+                                    <div class="mini-logo">
+                                        <a href="#"><img src="<?php echo $logo['src'] ?>" alt="<?php echo $logo['alt'] ?>"></a>
+                                    </div>
+                                </div>
+                            <?php endforeach;?>
                         </div>
                     </div>
                     <div class="slide-btn">
@@ -130,20 +163,16 @@
                     <div class="col-sm-12 col-lg-8">
                         <div class="col-sm-12 col-lg-6 row" style="padding-top: 2em;">
                             <?php
-                            $sqlQuery = "SELECT * FROM partner_logo";
-                            $result = mysqli_query($connection,$sqlQuery);
-                            if(mysqli_num_rows($result) > 0) {
-                                while($row = mysqli_fetch_assoc($result)) {
-                                    ?>
-                                    <div class="col-sm-6" style="padding:5px;">
-                                        <div class="mini-logo">
-                                            <a href="#"><img src="<?php echo $row['src'] ?>" alt="<?php echo $row['alt'] ?>"></a>
-                                        </div>
-                                    </div>
-                                    <?php
-                                }
-                            }
+                                $sqlSelect = "SELECT * FROM partner_logo";
+                                $partners = $database->RunQuery($sqlSelect);
                             ?>
+                            <?php foreach ($partners as $partner ):?>
+                                <div class="col-sm-6" style="padding:5px;">
+                                    <div class="mini-logo">
+                                        <a href="#"><img src="<?php echo $partner['src'] ?>" alt="<?php echo $partner['alt'] ?>"></a>
+                                    </div>
+                                </div>
+                            <?php endforeach;?>
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-4 b2-partner-img">

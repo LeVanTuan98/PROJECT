@@ -64,19 +64,16 @@
                 <h4>Link sản phẩm dịch vụ</h4>
                 <div class="slider-logo-footer">
                     <?php
-                    $sqlQuery = "SELECT * FROM product";
-                    $result = mysqli_query($connection,$sqlQuery);
-                    if(mysqli_num_rows($result) > 0) {
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            ?>
-                            <div>
-                                <img src="<?php echo $row['src']?>" alt="<?php echo $row['alt']?>">
-                            </div>
-                            <?php
-                        }
-                    }
+                    $sqlSelect = "SELECT * FROM product";
+                    $products = $database->RunQuery($sqlSelect);
                     ?>
+                    <?php if (!empty($products)) :?>
+                        <?php foreach ($products as $product) : ?>
+                            <div>
+                                <img src="<?php echo $product['src']?>" alt="<?php echo $product['alt']?>">
+                            </div>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>
                 <div class="license row">
                     <div class="col-sm-6">

@@ -29,6 +29,7 @@
     box-sizing: border-box;
 }
 /*=====================Main-Page==================*/
+
 /*-------------Header-page-----------------------*/
 .header-page {
     width:100%;
@@ -279,6 +280,7 @@
     z-index:1;
     width:100%;
 }
+
 /*
 * ===============Content=================
 */
@@ -724,6 +726,7 @@
     font-family: Roboto-medium;
     color: #2b2b2b;
 }
+
 /*
  ====================Lien-ket-thanh-vien===============
  */
@@ -1260,6 +1263,124 @@ right connector from last child*/
     padding:1em 0;
     margin-top: 2em;
 }
+/*
+    Back-to-top
+ */
+a#on_top {
+    opacity:0.6;
+    display: none;
+}
+a#on_top:hover{
+    opacity:1;
+}
+a#on_top img {
+    width: 100%;
+}
+a#on_top {
+    z-index: 99;
+    position: fixed;
+    bottom: 40px;
+    right: 14px;
+    width: 70px;
+    height: auto;
+}
+
+/*
+    Alway - on
+ */
+.alway-on {
+    position: fixed;
+    right: 22px;
+    top:270px;
+    z-index: 999;
+}
+.alway-on > div {
+    height: 70px;
+    margin: 15px 0;
+    position: relative;
+}
+.text-cart,.cart {
+    background: linear-gradient(to right,rgba(0,108,151,1) 0%,rgba(3,80,135,1) 100%);
+
+}
+.text-call,.call {
+    background: linear-gradient(to right,rgba(244,122,60,1) 0%,rgba(254,75,48,1) 100%);
+}
+.text-chat,.chat {
+    background: linear-gradient(to right,rgba(53,175,69,1) 0%,rgba(78,157,72,1) 100%);
+}
+.cart,.call,.chat {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 53px;
+    float:right;
+    position: relative;
+    z-index: 1111;
+}
+.alway-on div div a img {
+    width:80%;
+}
+.text-call,.text-cart,.text-chat {
+    position: relative;
+    float:left;
+    height:60px;
+    width: 300px;
+    padding-right: 75px;
+    margin-right: -60px;
+    border-radius: 30px;
+    display: none;
+}
+.text-call div {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-cart div {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-chat div {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-cart p {
+    font-size: 22px;
+    font-family: 'UTM-alter-gothic';
+    color: #ffffff;
+    line-height: 10px;
+    text-align: center;
+}
+.text-chat p {
+    font-size: 22px;
+    font-family: 'UTM-alter-gothic';
+    color: #ffffff;
+    line-height: 10px;
+    text-align: center;
+}
+.text-call p {
+    font-size: 22px;
+    font-family: 'UTM-alter-gothic';
+    color: #ffffff;
+    line-height: 10px;
+    text-align: center;
+}
+.group-cart:hover .text-cart {
+    display:block;
+}
+.group-call:hover .text-call {
+    display:block;
+}
+.group-chat:hover .text-chat {
+    display:block;
+}
+
 
 
 

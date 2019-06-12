@@ -1,8 +1,48 @@
 <div class="main-page">
     <?php
-    include "PHP/slide-show.php";
+        include "PHP/slide-show.php";
     ?>
     <div class="content">
+        <div class="alway-on">
+            <div class="group-cart clearfix">
+                <div class="cart">
+                    <a href="#">
+                        <img src="images/right-site/cart.png" alt="">
+                    </a>
+                </div>
+                <div class="text-cart">
+                    <div>
+                        <p>Holine đăng ký</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-call clearfix">
+                <div class="call">
+                    <a href="#">
+                        <img src="images/right-site/call.png" alt="">
+                    </a>
+                </div>
+                <div class="text-call">
+                    <div>
+                        <p>Tổng đài CSKH</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-chat clearfix">
+                <div class="chat">
+                    <a href="#">
+                        <img src="images/right-site/chat.png" alt="">
+                    </a>
+                </div>
+                <div class="text-chat">
+                    <div>
+                        <p>Live Chat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="title">
             <div class="container">
                 <div class=" row">
@@ -75,20 +115,15 @@
                 </div>
                 <div class="mini-box">
                     <?php
-                    $sqlQuery = "SELECT * FROM FTI_field";
-                    $result = mysqli_query($connection,$sqlQuery);
-                    if(mysqli_num_rows($result) > 0) {
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            ?>
-                            <div>
-                                <img src="<?php echo $row['src']?>" alt="<?php echo $row['alt']?>">
-                                <p><?php echo $row['content']?></p>
-                            </div>
-                            <?php
-                        }
-                    }
+                        $sqlSelect = "SELECT * FROM FTI_field";
+                        $fields = $database->RunQuery($sqlSelect);
                     ?>
+                    <?php foreach ($fields as $field) :?>
+                        <div>
+                            <img src="<?php echo $field['src']?>" alt="<?php echo $field['alt']?>">
+                            <p><?php echo $field['content']?></p>
+                        </div>
+                    <?php endforeach;?>
                 </div>
             </div>
         </div>
@@ -99,17 +134,12 @@
                         <p>CÁC LOẠI HÌNH DỊCH VỤ ĐANG CUNG CẤP.</p>
                         <ul>
                             <?php
-                            $sqlQuery = "SELECT * FROM field_supply";
-                            $result = mysqli_query($connection,$sqlQuery);
-                            if(mysqli_num_rows($result) > 0) {
-                                while($row = mysqli_fetch_assoc($result))
-                                {
-                                    ?>
-                                        <li><?php echo $row['field']?></li>
-                                    <?php
-                                }
-                            }
+                                $sqlSelect = "SELECT * FROM field_supply";
+                                $fields = $database->RunQuery($sqlSelect);
                             ?>
+                            <?php foreach ($fields as $field) :?>
+                                <li><?php echo $field['field']?></li>
+                            <?php endforeach;?>
                         </ul>
                     </div>
                     <div class="col-sm-12 col-lg-4 b2-img">

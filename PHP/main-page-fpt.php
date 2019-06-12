@@ -1,8 +1,48 @@
 <div class="main-page">
     <?php
-    include "PHP/slide-show.php";
+        include "PHP/slide-show.php";
     ?>
     <div class="content">
+        <div class="alway-on">
+            <div class="group-cart clearfix">
+                <div class="cart">
+                    <a href="#">
+                        <img src="images/right-site/cart.png" alt="">
+                    </a>
+                </div>
+                <div class="text-cart">
+                    <div>
+                        <p>Holine đăng ký</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-call clearfix">
+                <div class="call">
+                    <a href="#">
+                        <img src="images/right-site/call.png" alt="">
+                    </a>
+                </div>
+                <div class="text-call">
+                    <div>
+                        <p>Tổng đài CSKH</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-chat clearfix">
+                <div class="chat">
+                    <a href="#">
+                        <img src="images/right-site/chat.png" alt="">
+                    </a>
+                </div>
+                <div class="text-chat">
+                    <div>
+                        <p>Live Chat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="title">
             <div class="container">
                 <div class=" row">
@@ -77,37 +117,40 @@
                 </div>
                 <div class="number-list">
                     <?php
-                    $sqlQuery = "SELECT * FROM fpt_overview";
-                    $result = mysqli_query($connection,$sqlQuery);
-                    if(mysqli_num_rows($result) > 0) {
-                        $row = mysqli_fetch_assoc($result);
-                    }
+                        $sqlSelect = "SELECT * FROM fpt_overview";
+                        $info = $database->RunQuery($sqlSelect);
+                        $count =$database->NumRow($sqlSelect);
                     ?>
-                    <div class="number">
-                        <p>
-                            Thành lập <br> <span><?php echo $row['year']?></span> <br> NĂM
-                        </p>
-                    </div>
-                    <div class="number">
-                        <p>
-                            Phủ khắp <br> <span><?php echo $row['province']?></span> <br> TỈNH THÀNH
-                        </p>
-                    </div>
-                    <div class="number">
-                        <p>
-                            Hiện diện <br> <span><?php echo $row['country']?></span> <br> QUỐC GIA
-                        </p>
-                    </div>
-                    <div class="number">
-                        <p>
-                            Trên <br> <span><?php echo $row['employee']?></span> <br> NHÂN VIÊN
-                        </p>
-                    </div>
-                    <div class="number">
-                        <p>
-                            Doanh thu 2017 <br> <span><?php echo $row['revenue']?></span> <br> TỶ VNĐ
-                        </p>
-                    </div>
+                    <?php if(!empty($info)) :?>
+                        <?php if(!empty($info[$count-1])):?>
+                            <?php $row = $info[$count - 1]?>
+                            <div class="number">
+                                <p>
+                                    Thành lập <br> <span><?php echo $row['year']?></span> <br> NĂM
+                                </p>
+                            </div>
+                            <div class="number">
+                                <p>
+                                    Phủ khắp <br> <span><?php echo $row['province']?></span> <br> TỈNH THÀNH
+                                </p>
+                            </div>
+                            <div class="number">
+                                <p>
+                                    Hiện diện <br> <span><?php echo $row['country']?></span> <br> QUỐC GIA
+                                </p>
+                            </div>
+                            <div class="number">
+                                <p>
+                                    Trên <br> <span><?php echo number_format($row['employee'] ,'0','.','.')?></span> <br> NHÂN VIÊN
+                                </p>
+                            </div>
+                            <div class="number">
+                                <p>
+                                    Doanh thu 2017 <br> <span><?php echo number_format($row['revenue'] ,'0','.','.')?></span> <br> TỶ VNĐ
+                                </p>
+                            </div>
+                        <?php endif;?>
+                    <?php endif; ?>
                 </div>
                 <div class="b1-content">
                     <p>Trong cuộc cách mạng 4.0, FPT là Công ty Việt Nam tiên phong trong việc nghiên cứu và phát triển các công nghệ mới về trí tuệ nhân tạo, dữ liệu lớn, điện toán đám mây, di động,… FPT cũng là doanh nghiệp tiên phong đồng hành cùng với các tập đoàn công nghệ hàng đầu thế giới để tạo nên các nền tảng công nghệ số tiên tiến nhất như GE (Predix), Siemens (MindSphere), Airbus (Skywise), Amazon AWS…</p>
@@ -304,7 +347,6 @@
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

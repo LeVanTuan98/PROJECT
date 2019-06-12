@@ -32,7 +32,8 @@
 <body>
 <!--PHP-->
 <?php
-    include "PHP/config.php";
+    require_once "PHP/Database.php";
+    $database = new Database();
 ?>
 <!--HTML-->
 <div id="index" >
@@ -41,9 +42,11 @@
         include "PHP/main-page-intro.php";
         include "PHP/footer.php";
     ?>
+    <a id="on_top" href="#top"><img src="images/right-site/top.png" alt="Trở lên trên"></i></a>
 </div>
 <!--Javascript.js-->
 <script language="JavaScript" src="js/responsive.js"></script>
 <script language="JavaScript" src="js/javascript.js"></script>
+<script language="JavaScript" src="js/back-to-top.js"></script>
 </body>
 </html>

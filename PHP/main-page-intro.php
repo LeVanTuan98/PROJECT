@@ -3,6 +3,46 @@
         include "PHP/slide-show.php";
     ?>
     <div class="content">
+        <div class="alway-on">
+            <div class="group-cart clearfix">
+                <div class="cart">
+                    <a href="#">
+                        <img src="images/right-site/cart.png" alt="">
+                    </a>
+                </div>
+                <div class="text-cart">
+                    <div>
+                        <p>Holine đăng ký</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-call clearfix">
+                <div class="call">
+                    <a href="#">
+                        <img src="images/right-site/call.png" alt="">
+                    </a>
+                </div>
+                <div class="text-call">
+                    <div>
+                        <p>Tổng đài CSKH</p>
+                        <p>1900 6600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-chat clearfix">
+                <div class="chat">
+                    <a href="#">
+                        <img src="images/right-site/chat.png" alt="">
+                    </a>
+                </div>
+                <div class="text-chat">
+                    <div>
+                        <p>Live Chat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="title">
             <div class="container">
                 <div class=" row">
@@ -78,37 +118,40 @@
                             </p>
                             <div class="number-list">
                                 <?php
-                                $sqlQuery = "SELECT * FROM company_size";
-                                $result = mysqli_query($connection,$sqlQuery);
-                                if(mysqli_num_rows($result) > 0) {
-                                    $row = mysqli_fetch_assoc($result);
-                                }
+                                    $sqlSelect = "SELECT * FROM company_size";
+                                    $info = $database->RunQuery($sqlSelect);
+                                    $count = $database->NumRow($sqlSelect);
                                 ?>
-                                <div class="number">
-                                    <p>
-                                        Sau <br> <span><?php echo $row['time']?></span> <br> NĂM HOẠT ĐỘNG
-                                    </p>
-                                </div>
-                                <div class="number">
-                                    <p>
-                                        Có hơn <br> <span><?php echo $row['employees']?></span> <br> NHÂN VIÊN CHÍNH THỨC
-                                    </p>
-                                </div>
-                                <div class="number">
-                                    <p>
-                                        Với gần <br> <span><?php echo $row['offices']?></span> <br> VĂN PHÒNG GIAO DỊCH
-                                    </p>
-                                </div>
-                                <div class="number">
-                                    <p>
-                                        Tại <br> <span><?php echo $row['province']?></span> <br> TỈNH THÀNH
-                                    </p>
-                                </div>
-                                <div class="number">
-                                    <p>
-                                        Thuộc hơn <br> <span><?php echo $row['branch']?></span> <br> CHI NHÁNH
-                                    </p>
-                                </div>
+                                <?php if(!empty($info)) :?>
+                                    <?php if(!empty($info[$count-1])) :?>
+                                        <?php $row = $info[$count-1];?>
+                                        <div class="number">
+                                            <p>
+                                                Sau <br> <span><?php echo $row['time']?></span> <br> NĂM HOẠT ĐỘNG
+                                            </p>
+                                        </div>
+                                        <div class="number">
+                                            <p>
+                                                Có hơn <br> <span><?php echo number_format($row['employees'],0,'.','.');?></span> <br> NHÂN VIÊN CHÍNH THỨC
+                                            </p>
+                                        </div>
+                                        <div class="number">
+                                            <p>
+                                                Với gần <br> <span><?php echo $row['offices']?></span> <br> VĂN PHÒNG GIAO DỊCH
+                                            </p>
+                                        </div>
+                                        <div class="number">
+                                            <p>
+                                                Tại <br> <span><?php echo $row['province']?></span> <br> TỈNH THÀNH
+                                            </p>
+                                        </div>
+                                        <div class="number">
+                                            <p>
+                                                Thuộc hơn <br> <span><?php echo $row['branch']?></span> <br> CHI NHÁNH
+                                            </p>
+                                        </div>
+                                    <?php endif;?>
+                                <?php endif;?>
                             </div>
                             <p>
                                 Với sứ mệnh tiên phong đưa Internet đến với người dân Việt Nam và mong muốn mỗi gia đình Việt Nam đều sử dụng ít nhất một dịch vụ của FPT Telecom, đồng hành cùng phương châm "Khách hàng là trọng tâm", chúng tôi không ngừng nỗ lực đầu tư hạ tầng, nâng cấp chất lượng sản phẩm – dịch vụ, tăng cường ứng dụng công nghệ mới để mang đến cho khách hàng những trải nghiệm sản phẩm dịch vụ vượt trội.
@@ -152,17 +195,12 @@
                     <div class="col-sm-12 col-md-6">
                         <ul class="list-style-orange">
                             <?php
-                            $sqlQuery = "SELECT * FROM business_field";
-                            $result = mysqli_query($connection,$sqlQuery);
-                            if(mysqli_num_rows($result) > 0) {
-                                while($row = mysqli_fetch_assoc($result))
-                                {
-                                    ?>
-                                    <li><?php echo $row['field']?></li>
-                                    <?php
-                                }
-                            }
+                                $sqlSelect = "SELECT * FROM business_field";
+                                $fields = $database->RunQuery($sqlSelect);
                             ?>
+                            <?php foreach ($fields as $field):?>
+                                <li><?php echo $field['field']?></li>
+                            <?php endforeach;?>
                         </ul>
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -187,17 +225,12 @@
                         <div class="col-sm-12">
                             <ul class="list-style-orange">
                                 <?php
-                                $sqlQuery = "SELECT * FROM trophys";
-                                $result = mysqli_query($connection,$sqlQuery);
-                                if(mysqli_num_rows($result) > 0) {
-                                    while($row = mysqli_fetch_assoc($result))
-                                    {
-                                        ?>
-                                        <li><?php echo $row['trophy']?></li>
-                                        <?php
-                                    }
-                                }
+                                    $sqlSelect = "SELECT * FROM trophys";
+                                    $trophys = $database->RunQuery($sqlSelect);
                                 ?>
+                                <?php foreach ($trophys as $trophy):?>
+                                    <li><?php echo $trophy['trophy']?></li>
+                                <?php endforeach;?>
                             </ul>
                         </div>
                     </div>
@@ -214,17 +247,12 @@
                 </div>
                 <div class="img">
                     <?php
-                    $sqlQuery = "SELECT * FROM international_certificate";
-                    $result = mysqli_query($connection,$sqlQuery);
-                    if(mysqli_num_rows($result) > 0) {
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            ?>
-                            <img src="<?php echo $row['src']?>" alt="">
-                            <?php
-                        }
-                    }
+                    $sqlSelect = "SELECT * FROM international_certificate";
+                    $certis = $database->RunQuery($sqlSelect);
                     ?>
+                    <?php foreach ($certis as $certi):?>
+                        <img src="<?php echo $certi['src']?>" alt="">
+                    <?php endforeach;?>
                 </div>
             </div>
         </div>
@@ -298,7 +326,6 @@
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -306,3 +333,4 @@
         </div>
     </div>
 </div>
+
