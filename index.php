@@ -4,7 +4,7 @@
     <?php include_once "partials/head.php";?>
 </head>
 <body>
-<!--PHP-->
+<!--Database-->
 <?php
 require_once "partials/Database.php";
 $database = new Database();
@@ -17,10 +17,10 @@ $database = new Database();
 
         <?php
         if(isset($_GET['page']) && $_GET['page']) {
-            $filePath = dirname(__FILE__)."/pages/".trim($_GET['page']);
+            $filePath = dirname(__FILE__)."/pages/".trim($_GET['page']).".php";
 //            echo "<br> File path:".$filePath;
             if(file_exists($filePath)) {
-                include_once "pages/".trim($_GET['page']);
+                include_once "pages/".trim($_GET['page']).".php";
             }
         }else {
             include_once "pages/gioi_thieu_chung.php";

@@ -60,19 +60,19 @@
         <div class="container">
             <div class="intro">
                 <div class="intro-item">
-                    <a href="?page=gioi_thieu_chung.php" title="Giới thiệu chung">
+                    <a href="?page=gioi_thieu_chung" title="Giới thiệu chung">
                         <img src="assets/images/intro/introduction.png" alt="Giới thiệu chung">
                         <p>Giới thiệu chung</p>
                     </a>
                 </div>
                 <div class="intro-item">
-                    <a href="?page=lien_ket_thanh_vien.php" title="Liên kết thành viên">
+                    <a href="?page=lien_ket_thanh_vien" title="Liên kết thành viên">
                         <img src="assets/images/intro/members.png" alt="Liên kết thành viên">
                         <p>Liên kết - thành viên</p>
                     </a>
                 </div>
                 <div class="intro-item focus-item">
-                    <a href="?page=khach_hang_doi_tac.php" title="Khách hàng - Đối tác">
+                    <a href="?page=khach_hang_doi_tac" title="Khách hàng - Đối tác">
                         <img src="assets/images/intro/partners.png" alt="Khách hàng - Đối tác">
                         <p>Khách hàng - Đối tác</p>
                     </a>
@@ -84,7 +84,7 @@
                     </a>
                 </div>
                 <div class="intro-item">
-                    <a href="?page=tap_doan_fpt.php" title="Tập đoàn FPT">
+                    <a href="?page=tap_doan_fpt" title="Tập đoàn FPT">
                         <img src="assets/images/intro/fpt.png" alt="Tập đoàn FPT">
                         <p>Tập đoàn FPT</p>
                     </a>
