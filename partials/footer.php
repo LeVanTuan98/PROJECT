@@ -35,7 +35,7 @@
             </div>
             <div class="col-12 col-sm-4">
                 <a href="#" title="FPT Jobs">
-                    <img src="images/footer/fptjobs.png" alt="FPTjob.png">
+                    <img src="assets/images/footer/fptjobs.png" alt="FPTjob.png">
                 </a>
             </div>
         </div>
@@ -44,19 +44,19 @@
                 <h4>Follow Us</h4>
                 <div class="logo-follow">
                     <div>
-                        <a href="#" title="Facebook"><img src="images/footer/follow/face.png" alt="face.png"></a>
+                        <a href="#" title="Facebook"><img src="assets/images/footer/follow/face.png" alt="face.png"></a>
                     </div>
                     <div>
-                        <a href="#" title="Hi FPT"><img src="images/footer/follow/logo-hifpt.png" alt="logo-hifpt.png"></a>
+                        <a href="#" title="Hi FPT"><img src="assets/images/footer/follow/logo-hifpt.png" alt="logo-hifpt.png"></a>
                     </div>
                     <div>
-                        <a href="#" title="YouTube"><img src="images/footer/follow/youtube.png" alt="youtube.png"></a>
+                        <a href="#" title="YouTube"><img src="assets/images/footer/follow/youtube.png" alt="youtube.png"></a>
                     </div>
                     <div>
-                        <a href="#" title="Instagram"><img src="images/footer/follow/instagram.png" alt="instagram.png"></a>
+                        <a href="#" title="Instagram"><img src="assets/images/footer/follow/instagram.png" alt="instagram.png"></a>
                     </div>
                     <div>
-                        <a href="#" title="Zalo"><img src="images/footer/follow/zalo.png" alt="zalo.png"></a>
+                        <a href="#" title="Zalo"><img src="assets/images/footer/follow/zalo.png" alt="zalo.png"></a>
                     </div>
                 </div>
             </div>
@@ -80,10 +80,10 @@
                         <p>Giấy chứng nhận ĐKKD số 0101778163 do Sở Kế hoạch Đầu tư Thành phố Hà Nội cấp ngày 28/07/2005</p>
                     </div>
                     <div class="col-sm-3">
-                        <img src="images/footer/20150827110756-dathongbao.png" alt="Thongbao.png">
+                        <img src="assets/images/footer/20150827110756-dathongbao.png" alt="Thongbao.png">
                     </div>
                     <div class="col-sm-3">
-                        <img src="images/footer/small_logo_background_left.png" alt="small_logo.png">
+                        <img src="assets/images/footer/small_logo_background_left.png" alt="small_logo.png">
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
     </div>
     <div class="footer-logo">
         <a href="#" title="FPT Telecom">
-            <img src="images/footer/footer_logo.png" alt="footer_logo.png">
+            <img src="assets/images/footer/footer_logo.png" alt="footer_logo.png">
         </a>
         <span>© 2018 - Bản quyền thuộc về FPT Telecom</span>
     </div>

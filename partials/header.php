@@ -49,7 +49,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/logo/en.png" alt="">
+                                        <img src="assets/images/logo/en.png" alt="">
                                         <span>English</span>
                                     </a>
                                 </li>
@@ -66,7 +66,7 @@
                         <div class="col-sm-2 col-md-2 col-lg-2">
                             <div class="logo-main">
                                 <a href="#" title="FPT Telecom">
-                                    <img src="images/logo/logo.png" alt="FPT Telecom">
+                                    <img src="assets/images/logo/logo.png" alt="FPT Telecom">
                                 </a>
                             </div>
                         </div>
@@ -82,8 +82,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Internet FPT">
-                                                                <img src="images/sub-menu/submenu-internet.png" alt="Internet FPT" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-internet-hover.png" alt="Internet FPT" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-internet.png" alt="Internet FPT" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-internet-hover.png" alt="Internet FPT" class="hover">
                                                                 <span>Internet FPT</span>
                                                             </a>
                                                             <ul>
@@ -106,8 +106,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Truyền hình FPT">
-                                                                <img src="images/sub-menu/submenu-tv.png" alt="Truyền hình FPT" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-tv-hover.png" alt="Truyền hình FPT" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-tv.png" alt="Truyền hình FPT" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-tv-hover.png" alt="Truyền hình FPT" class="hover">
                                                                 <span>Truyền hình FPT</span>
                                                             </a>
                                                             <ul>
@@ -135,8 +135,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Dịch vụ Online">
-                                                                <img src="images/sub-menu/submenu-online.png" alt="Dịch vụ Online" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-online-hover.png" alt="Dịch vụ Online" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-online.png" alt="Dịch vụ Online" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-online-hover.png" alt="Dịch vụ Online" class="hover">
                                                                 <span>Dịch vụ Online</span>
                                                             </a>
                                                             <ul>
@@ -179,8 +179,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="IOT/Smart Home">
-                                                                <img src="images/sub-menu/submenu-iot.png" alt="IOT/Smart Home" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-iot-hover.png" alt="IOT/Smart Home" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-iot.png" alt="IOT/Smart Home" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-iot-hover.png" alt="IOT/Smart Home" class="hover">
                                                                 <span>IOT/Smart Home</span>
                                                             </a>
                                                             <ul>
@@ -210,8 +210,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Hỗ trợ thông tin">
-                                                                <img src="images/sub-menu/submenu-information.png" alt="Hỗ trợ thông tin" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-information-hover.png" alt="Hỗ trợ thông tin" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-information.png" alt="Hỗ trợ thông tin" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-information-hover.png" alt="Hỗ trợ thông tin" class="hover">
                                                                 <span>Hỗ trợ thông tin</span>
                                                             </a>
                                                             <ul>
@@ -249,8 +249,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Hỗ trợ kĩ thuật">
-                                                                <img src="images/sub-menu/submenu-technical.png" alt="Hỗ trợ kĩ thuật" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-technical-hover.png" alt="Hỗ trợ kĩ thuật" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-technical.png" alt="Hỗ trợ kĩ thuật" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-technical-hover.png" alt="Hỗ trợ kĩ thuật" class="hover">
                                                                 <span>Hỗ trợ kĩ thuật</span>
                                                             </a>
                                                             <ul>
@@ -273,8 +273,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Liên hệ 24/7">
-                                                                <img src="images/sub-menu/submenu-contact.png" alt="Liên hệ 24/7" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-contact-hover.png" alt="Liên hệ 24/7" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-contact.png" alt="Liên hệ 24/7" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-contact-hover.png" alt="Liên hệ 24/7" class="hover">
                                                                 <span>Liên hệ 24/7</span>
                                                             </a>
                                                             <ul>
@@ -317,8 +317,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Phản hồi khách hàng">
-                                                                <img src="images/sub-menu/submenu-feedback.png" alt="Phản hồi khách hàng" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-feedback-hover.png" alt="Phản hồi khách hàng" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-feedback.png" alt="Phản hồi khách hàng" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-feedback-hover.png" alt="Phản hồi khách hàng" class="hover">
                                                                 <span>Phản hồi khách hàng</span>
                                                             </a>
                                                             <ul>
@@ -353,8 +353,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Tài khoản của bạn">
-                                                                <img src="images/sub-menu/submenu-account.png" alt="Tài khoản của bạn" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-account-hover.png" alt="Tài khoản của bạn" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-account.png" alt="Tài khoản của bạn" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-account-hover.png" alt="Tài khoản của bạn" class="hover">
                                                                 <span>Tài khoản của bạn</span>
                                                             </a>
                                                             <ul>
@@ -392,8 +392,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Thanh toán">
-                                                                <img src="images/sub-menu/submenu-payment.png" alt="Thanh toán" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-payment-hover.png" alt="Thanh toán" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-payment.png" alt="Thanh toán" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-payment-hover.png" alt="Thanh toán" class="hover">
                                                                 <span>Thanh toán</span>
                                                             </a>
                                                             <ul>
@@ -426,8 +426,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Khách hàng thân thiết">
-                                                                <img src="images/sub-menu/submenu-gift.png" alt="Khách hàng thân thiết" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-gift-hover.png" alt="Khách hàng thân thiết" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-gift.png" alt="Khách hàng thân thiết" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-gift-hover.png" alt="Khách hàng thân thiết" class="hover">
                                                                 <span>Khách hàng thân thiết</span>
                                                             </a>
                                                             <ul>
@@ -450,8 +450,8 @@
                                                     <ul>
                                                         <li class="menu-icon">
                                                             <a href="#" title="Hỗ trợ">
-                                                                <img src="images/sub-menu/submenu-support.png" alt="Hỗ trợ" class="non-hover">
-                                                                <img src="images/sub-menu/submenu-support-hover.png" alt="Hỗ trợ" class="hover">
+                                                                <img src="assets/images/sub-menu/submenu-support.png" alt="Hỗ trợ" class="non-hover">
+                                                                <img src="assets/images/sub-menu/submenu-support-hover.png" alt="Hỗ trợ" class="hover">
                                                                 <span>Hỗ trợ</span>
                                                             </a>
                                                             <ul>

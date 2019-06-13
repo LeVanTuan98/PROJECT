@@ -1291,7 +1291,7 @@ a#on_top {
 .alway-on {
     position: fixed;
     right: 22px;
-    top:270px;
+    top:260px;
     z-index: 999;
 }
 .alway-on > div {
