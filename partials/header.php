@@ -42,7 +42,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" title="Đăng nhập">
+                                    <a href="#" onclick="document.getElementById('login').style.display='block'" title="Đăng nhập">
                                         <i class="fa fa-user-circle" aria-hidden="true"></i>
                                         <span>Đăng nhập</span>
                                     </a>
@@ -495,17 +495,17 @@
             <nav class="menu-second row">
                 <div class="col-2 menu-btn">
                     <button id="button-menu">
-                        <img src="images/logo/f-toggle.png" alt="" id="btn" onclick="Show()">
-                        <img src="images/logo/f-toggle-x.png" alt="" id="btn-x" style="display:none;" onclick="Hide()">
+                        <img src="assets/images/logo/f-toggle.png" alt="" id="btn" onclick="Show()">
+                        <img src="assets/images/logo/f-toggle-x.png" alt="" id="btn-x" style="display:none;" onclick="Hide()">
                     </button>
                 </div>
                 <div class="col-1 search">
                     <form action="#">
-                        <img src="images/logo/f-search.png" alt="">
+                        <img src="assets/images/logo/f-search.png" alt="">
                     </form>
                 </div>
                 <div class="col-6 logo">
-                    <a href="#"><img src="images/logo/logo.png" alt=""></a>
+                    <a href="#"><img src="assets/images/logo/logo.png" alt=""></a>
                 </div>
                 <div class="col-3">
                     <p>VỀ FPT TELECOM</p>
@@ -548,3 +548,5 @@
         </div>
     </div>
 </header>
+<?php include_once "partials/login.php";?>
+<?php include_once "partials/login-result.php";?>

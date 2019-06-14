@@ -2,147 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7268a97f-dcdd-49f9-8958-65f86454ec1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/gioi_thieu_chung.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/khach_hang_doi_tac.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/lien_ket_thanh_vien.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/tap_doan_fpt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partials/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/login-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/login-result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/main-page-fpt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/main-page-intro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/main-page-link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/main-page-partner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/slide-show.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/slide-show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Roboto.zip" beforeDir="false" afterPath="$PROJECT_DIR$/assets/documents/Roboto.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gioi_thieu_chung.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/20150827110756-dathongbao.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/20150827110756-dathongbao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/follow/face.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/follow/face.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/follow/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/follow/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/follow/logo-hifpt.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/follow/logo-hifpt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/follow/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/follow/youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/follow/zalo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/follow/zalo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/footer_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/footer_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/fptjobs.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/fptjobs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-fpt-internet.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-fpt-internet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-fpt-play-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-fpt-play-box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-fpt-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-fpt-play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-fpt-truyenhinh.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-fpt-truyenhinh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-fsend.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-fsend.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-fshare.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-fshare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-mix166.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-mix166.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/logo-startalk.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/logo-startalk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer/small_logo_background_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/footer/small_logo_background_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpt/global-network.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fpt/global-network.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpt/i-customer-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fpt/i-customer-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpt/i-setting-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fpt/i-setting-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpt/icon-global-network.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fpt/icon-global-network.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpt/icon-info.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fpt/icon-info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpt/technology-orientation.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fpt/technology-orientation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/chungchi/gioithieu_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/dot-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/dot-orange.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/fpt.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/fpt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/fptvn_veftel_gioithieu.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/fptvn_veftel_gioithieu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/gioithieu-hotro.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/gioithieu-hotro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/gioithieu-huychuong.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/gioithieu-huychuong.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/gioithieu_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/gioithieu_20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-chungchi.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-chungchi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-contract.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-contract.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-cup.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-cup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-fb.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-fb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-mail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-support.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-support.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/i-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/i-web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/introduction.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/introduction.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/lich_su_phat_trien.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/lich_su_phat_trien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/members.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/members.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/partners.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/partners.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro/shareholders.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/intro/shareholders.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link/i1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/link/i1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link/i2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/link/i2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link/i3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/link/i3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link/i4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/link/i4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link/i5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/link/i5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link/lienket.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/link/lienket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/en.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/en.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/f-search.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/f-search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/f-toggle-x.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/f-toggle-x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/f-toggle.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/f-toggle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partner/customer-partner-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/partner/customer-partner-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partner/i-customer.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/partner/i-customer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partner/i-partner.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/partner/i-partner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/right-site/call.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/right-site/call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/right-site/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/right-site/cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/right-site/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/right-site/chat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/right-site/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/right-site/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slideshow/slideshow9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slideshow/slideshow9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-account-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-account-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-account.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-account.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-contact-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-contact-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-contact.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-feedback-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-feedback-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-feedback.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-feedback.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-gift-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-gift-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-gift.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-gift.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-information-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-information-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-information.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-information.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-internet-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-internet-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-internet.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-internet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-iot-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-iot-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-iot.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-iot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-online-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-online-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-online.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-online.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-payment-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-payment-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-payment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-support-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-support-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-support.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-support.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-technical-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-technical-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-technical.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-technical.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-tv-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-tv-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sub-menu/submenu-tv.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sub-menu/submenu-tv.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/back-to-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/back-to-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/responsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khach_hang_doi_tac.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lien_ket_thanh_vien.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_doan_fpt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,98 +32,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="414">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/partials/head.php">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/khach_hang_doi_tac.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/gioi_thieu_chung.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#9;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lien_ket_thanh_vien.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/slide-show.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tap_doan_fpt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="318">
+              <caret line="1396" column="12" lean-forward="true" selection-start-line="1396" selection-start-column="12" selection-end-line="1396" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -294,6 +82,7 @@
       <find>nu</find>
       <find>php</find>
       <find>images</find>
+      <find>sile</find>
     </findStrings>
     <replaceStrings>
       <replace>assets/images</replace>
@@ -335,14 +124,26 @@
         <option value="$PROJECT_DIR$/PHP/main-page-fpt.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/partials/footer.php" />
-        <option value="$PROJECT_DIR$/partials/header.php" />
         <option value="$PROJECT_DIR$/partials/head.php" />
         <option value="$PROJECT_DIR$/gioi_thieu_chung.php" />
         <option value="$PROJECT_DIR$/pages/main-page-intro.php" />
         <option value="$PROJECT_DIR$/pages/main-page-partner.php" />
         <option value="$PROJECT_DIR$/pages/main-page-link.php" />
         <option value="$PROJECT_DIR$/pages/main-page-fpt.php" />
+        <option value="$PROJECT_DIR$/pages/gioi_thieu_chung.php" />
+        <option value="$PROJECT_DIR$/pages/khach_hang_doi_tac.php" />
+        <option value="$PROJECT_DIR$/pages/lien_ket_thanh_vien.php" />
+        <option value="$PROJECT_DIR$/pages/tap_doan_fpt.php" />
+        <option value="$PROJECT_DIR$/pages/login.php" />
+        <option value="$PROJECT_DIR$/assets/js/javascript.js" />
+        <option value="$PROJECT_DIR$/assets/js/login.js" />
+        <option value="$PROJECT_DIR$/partials/login.php" />
+        <option value="$PROJECT_DIR$/partials/login-result.php" />
+        <option value="$PROJECT_DIR$/partials/login-process.php" />
+        <option value="$PROJECT_DIR$/partials/header.php" />
+        <option value="$PROJECT_DIR$/partials/logout.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -359,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,6 +175,18 @@
             <path>
               <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PROJECT" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,13 +198,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BTVN/App_login" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -402,19 +215,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PROJECT\partials" />
+      <recent name="C:\xampp\htdocs\PROJECT\pages" />
+      <recent name="C:\xampp\htdocs\PROJECT\assets" />
+      <recent name="C:\xampp\htdocs\PROJECT\images\right-site" />
+      <recent name="D:\xampp\htdocs\PROJECT\images\slideshow" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\PROJECT\assets" />
       <recent name="C:\xampp\htdocs\PROJECT\PHP" />
       <recent name="C:\xampp\htdocs\PROJECT" />
       <recent name="C:\xampp\htdocs\PROJECT\css" />
       <recent name="D:\xampp\htdocs\PROJECT\Images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PROJECT\pages" />
-      <recent name="C:\xampp\htdocs\PROJECT\partials" />
-      <recent name="C:\xampp\htdocs\PROJECT\assets" />
-      <recent name="C:\xampp\htdocs\PROJECT\images\right-site" />
-      <recent name="D:\xampp\htdocs\PROJECT\images\slideshow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,7 +306,10 @@
       <workItem from="1560217848989" duration="19000" />
       <workItem from="1560338732354" duration="21197000" />
       <workItem from="1560394713723" duration="310000" />
-      <workItem from="1560401856673" duration="1848000" />
+      <workItem from="1560401856673" duration="2074000" />
+      <workItem from="1560411793380" duration="128000" />
+      <workItem from="1560423659720" duration="1048000" />
+      <workItem from="1560522226501" duration="21418000" />
     </task>
     <task id="LOCAL-00001" summary="5/4/2019">
       <created>1554456908825</created>
@@ -586,17 +402,30 @@
       <option name="project" value="LOCAL" />
       <updated>1560366830616</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="13/6/19">
+      <created>1560403731001</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560403731001</updated>
+    </task>
+    <task id="LOCAL-00015" summary="13/6/19">
+      <created>1560411914138</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560411914138</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310515000" />
+    <option name="totallyTimeSpent" value="333335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -655,75 +484,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="13/6/19" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ON-OFF_LED/index.html" />
-    <entry file="file://$PROJECT_DIR$/ON-OFF_LED/style.css" />
-    <entry file="file://$PROJECT_DIR$/images/icon.ico" />
-    <entry file="file://$PROJECT_DIR$/images/sub-menu/submenu-online.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/sub-menu/submenu-tv.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_1.html" />
     <entry file="file://$PROJECT_DIR$/css/style_1.css" />
-    <entry file="file://$PROJECT_DIR$/images/intro/members.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/intro/partners.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/intro/dot-orange.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/intro/i-chungchi.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/intro/i-mail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/footer/20150827110756-dathongbao.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/footer/small_logo_background_left.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/intro/members.png" />
+    <entry file="file://$PROJECT_DIR$/images/intro/partners.png" />
+    <entry file="file://$PROJECT_DIR$/images/intro/dot-orange.png" />
+    <entry file="file://$PROJECT_DIR$/images/intro/i-chungchi.png" />
+    <entry file="file://$PROJECT_DIR$/images/intro/i-mail.png" />
+    <entry file="file://$PROJECT_DIR$/images/footer/20150827110756-dathongbao.png" />
+    <entry file="file://$PROJECT_DIR$/images/footer/small_logo_background_left.png" />
+    <entry file="file://$PROJECT_DIR$/images/logo/logo.png" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow4.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow5.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow6.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow7.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow8.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow9.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow2.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow3.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/slideshow/slideshow1.jpg" />
+    <entry file="file://$PROJECT_DIR$/PHP" />
     <entry file="file://$PROJECT_DIR$/css/style-example.css" />
-    <entry file="file://$PROJECT_DIR$/images/logo/f-toggle.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/logo/f-toggle.png" />
     <entry file="file://$PROJECT_DIR$/css/style2.css" />
     <entry file="file://$PROJECT_DIR$/assets/js/responsive.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,113 +523,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/config.php" />
     <entry file="file://$PROJECT_DIR$/js/back-top.js" />
-    <entry file="file://$PROJECT_DIR$/assets/js/back-to-top.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tap_doan_fpt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lien_ket_thanh_vien.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/khach_hang_doi_tac.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="623" column="14" selection-start-line="623" selection-start-column="14" selection-end-line="623" selection-end-column="14" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#1;n#button#0;n#div#0;n#nav#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#nav#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="1289" column="3" selection-start-line="1289" selection-start-column="3" selection-end-line="1289" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gioi_thieu_chung.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="12" lean-forward="true" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="549" column="9" lean-forward="true" selection-start-line="549" selection-start-column="9" selection-end-line="549" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tap_doan_fpt.php" />
+    <entry file="file://$PROJECT_DIR$/lien_ket_thanh_vien.php" />
+    <entry file="file://$PROJECT_DIR$/khach_hang_doi_tac.php" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/gioi_thieu_chung.php" />
     <entry file="file://$PROJECT_DIR$/partials/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -856,88 +535,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tap_doan_fpt.php">
+    <entry file="file://$PROJECT_DIR$/partials/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/khach_hang_doi_tac.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="1892">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/gioi_thieu_chung.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/lien_ket_thanh_vien.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="1892">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/slide-show.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tap_doan_fpt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/back-to-top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lien_ket_thanh_vien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BTVN/App_login/logout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/login-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/login-result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#181#906#0#HTML" />
+            <element signature="e#3011#36680#0#HTML" />
+            <element signature="e#36696#39920#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="414">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/head.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="318">
+          <caret line="1396" column="12" lean-forward="true" selection-start-line="1396" selection-start-column="12" selection-end-line="1396" selection-end-column="12" />
         </state>
       </provider>
     </entry>

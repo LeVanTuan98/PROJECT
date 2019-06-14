@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,16 +21,17 @@ $database = new Database();
         <?php
         if(isset($_GET['page']) && $_GET['page']) {
             $filePath = dirname(__FILE__)."/pages/".trim($_GET['page']).".php";
-//            echo "<br> File path:".$filePath;
             if(file_exists($filePath)) {
                 include_once "pages/".trim($_GET['page']).".php";
+                $_SESSION['current_path'] = "http://localhost/PROJECT/index.php?page=" . trim($_GET['page']);
             }
         }else {
             include_once "pages/gioi_thieu_chung.php";
+            $_SESSION['current_path'] = "http://localhost/PROJECT/index.php?page=gioi_thieu_chung";
         }
         ?>
-
     </div>
+
     <?php include_once "partials/footer.php"; ?>
     <a id="on_top" href="#top"><img src="assets/images/right-site/top.png" alt="Trở lên trên"></i></a>
 </div>
@@ -35,5 +39,6 @@ $database = new Database();
 <script language="JavaScript" src="assets/js/responsive.js"></script>
 <script language="JavaScript" src="assets/js/javascript.js"></script>
 <script language="JavaScript" src="assets/js/back-to-top.js"></script>
+<script language="JavaScript" src="assets/js/login.js"></script>
 </body>
 </html>
