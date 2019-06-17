@@ -2,254 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7268a97f-dcdd-49f9-8958-65f86454ec1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/SidebarNav.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/export.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/graph.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/jqcandlestick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/monthly.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/i1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/i2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/i3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/i4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/img-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/search-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/slider7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/tick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/images/weather.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/Chart.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/SidebarNav.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/SimpleChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/amcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/chartinator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/classie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/export.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/images/dragIconRoundBig.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/images/lens.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/index1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/index2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/jquery.jqcandlestick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/modernizr.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/monthly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/serial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/controllers/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/controllers/ErrorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/controllers/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/models/AdminModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/models/PageModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/models/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/admin/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/admin/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/admin/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/admin/process-delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/admin/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/error/404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/error/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/page/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/page/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/page/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/page/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/page/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/user/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/user/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/user/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/user/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/mvc/view/user/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/pages/main-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/partials/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/partials/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/partials/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/partials/main-js.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/partials/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/documents/Roboto.zip" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/documents/Roboto.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/20150827110756-dathongbao.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/20150827110756-dathongbao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/follow/face.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/follow/face.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/follow/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/follow/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/follow/logo-hifpt.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/follow/logo-hifpt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/follow/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/follow/youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/follow/zalo.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/follow/zalo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/footer_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/footer_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/fptjobs.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/fptjobs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-fpt-internet.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-fpt-internet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-fpt-play-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-fpt-play-box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-fpt-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-fpt-play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-fpt-truyenhinh.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-fpt-truyenhinh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-fsend.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-fsend.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-fshare.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-fshare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-mix166.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-mix166.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/logo-startalk.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/logo-startalk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/footer/small_logo_background_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/footer/small_logo_background_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fpt/global-network.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/fpt/global-network.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fpt/i-customer-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/fpt/i-customer-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fpt/i-setting-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/fpt/i-setting-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fpt/icon-global-network.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/fpt/icon-global-network.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fpt/icon-info.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/fpt/icon-info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/fpt/technology-orientation.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/fpt/technology-orientation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/chungchi/gioithieu_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/chungchi/gioithieu_19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/dot-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/dot-orange.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/fpt.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/fpt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/fptvn_veftel_gioithieu.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/fptvn_veftel_gioithieu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/gioithieu-hotro.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/gioithieu-hotro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/gioithieu-huychuong.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/gioithieu-huychuong.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/gioithieu_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/gioithieu_20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-chungchi.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-chungchi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-contract.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-contract.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-cup.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-cup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-fb.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-fb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-mail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-support.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-support.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/i-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/i-web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/introduction.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/introduction.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/lich_su_phat_trien.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/lich_su_phat_trien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/members.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/members.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/partners.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/partners.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/intro/shareholders.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/intro/shareholders.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/link/i1.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/link/i1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/link/i2.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/link/i2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/link/i3.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/link/i3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/link/i4.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/link/i4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/link/i5.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/link/i5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/link/lienket.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/link/lienket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo/en.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/logo/en.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo/f-search.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/logo/f-search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo/f-toggle-x.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/logo/f-toggle-x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo/f-toggle.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/logo/f-toggle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/logo/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/partner/customer-partner-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/partner/customer-partner-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/partner/i-customer.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/partner/i-customer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/partner/i-partner.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/partner/i-partner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/right-site/call.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/right-site/call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/right-site/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/right-site/cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/right-site/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/right-site/chat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/right-site/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/right-site/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slideshow/slideshow9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/slideshow/slideshow9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-account-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-account-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-account.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-account.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-contact-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-contact-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-contact.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-feedback-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-feedback-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-feedback.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-feedback.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-gift-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-gift-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-gift.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-gift.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-information-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-information-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-information.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-information.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-internet-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-internet-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-internet.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-internet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-iot-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-iot-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-iot.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-iot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-online-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-online-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-online.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-online.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-payment-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-payment-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-payment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-support-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-support-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-support.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-support.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-technical-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-technical-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-technical.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-technical.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-tv-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-tv-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sub-menu/submenu-tv.png" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/images/sub-menu/submenu-tv.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/back-to-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/js/back-to-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/js/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/assets/js/responsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gioi_thieu_chung.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/pages/gioi_thieu_chung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/khach_hang_doi_tac.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/pages/khach_hang_doi_tac.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lien_ket_thanh_vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/pages/lien_ket_thanh_vien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tap_doan_fpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/pages/tap_doan_fpt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/mvc/models/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/login-process.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/login-process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/login-result.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/login-result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/slide-show.php" beforeDir="false" afterPath="$PROJECT_DIR$/FPTTelecom/partials/slide-show.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -266,14 +19,24 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../PROJECT\exportToHTML" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -313,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/login.js" />
         <option value="$PROJECT_DIR$/partials/login.php" />
         <option value="$PROJECT_DIR$/partials/login-result.php" />
         <option value="$PROJECT_DIR$/partials/login-process.php" />
@@ -364,22 +126,25 @@
         <option value="$PROJECT_DIR$/Admin/mvc/view/admin/update.php" />
         <option value="$PROJECT_DIR$/Admin/login.php" />
         <option value="$PROJECT_DIR$/Admin/partials/header.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="355" />
+    <option name="y" value="110" />
+    <option name="width" value="597" />
+    <option name="height" value="500" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,7 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,7 +268,8 @@
       <workItem from="1560423659720" duration="1048000" />
       <workItem from="1560522226501" duration="21418000" />
       <workItem from="1560575386948" duration="116000" />
-      <workItem from="1560668354213" duration="34722000" />
+      <workItem from="1560668354213" duration="35341000" />
+      <workItem from="1560735808207" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="5/4/2019">
       <created>1554456908825</created>
@@ -611,16 +376,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560411914138</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="13/6/19">
+      <created>1560706405223</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560706405223</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368173000" />
+    <option name="totallyTimeSpent" value="369992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="355" y="110" width="597" height="500" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.422292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -686,20 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/mvc/models/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/mvc/view/admin/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/mvc/view/admin/index2.php" />
     <entry file="file://$PROJECT_DIR$/FPTTelecom/partials/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -752,17 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/mvc/view/user/process-delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="33" selection-end-line="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/mvc/view/user/process-delete.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1078,6 +827,13 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
